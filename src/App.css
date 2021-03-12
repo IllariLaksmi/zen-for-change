@@ -9,7 +9,8 @@
   margin-left: auto;
   margin-right: auto;
   font-family: 'Raleway', sans-serif;
-  filter: drop-shadow(0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35));
+  box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35)
+
 }
 .upHeader{
   position: absolute;
@@ -47,4 +48,22 @@ border-radius: 232.399px;
 }
 .Intro img{
   margin-right: 100px;
+}
+.AboutUsStart{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.AboutUsStart img{
+  width: 300px;
+  height:400px;
+}
+.AboutUsEnd{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.AboutUsEnd img{
+  width: 400px;
+  height:400px;
 }
