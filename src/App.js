@@ -1,27 +1,35 @@
 import './App.css';
-import ButtonAppBar from './navBar'
-import ButtonAppBar1 from './navBarLanguages'
-import headerOption1 from './img/headerOption1.png'
-import introImage from './img/introImage.jpg'
-import Introduction from './Introduction'
-import Team from './Team'
-import AboutUs from './AboutUs'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './Home'
+import Psychotherapy from './Psychotherapy'
+import SexTherapy from './SexTherapy'
+import Forms from './Forms'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <div className='NavBar'>
-      <img src={headerOption1} alt='header'></img>
-      <ButtonAppBar className='upHeader'></ButtonAppBar>
-      <ButtonAppBar1 className='downHeader'></ButtonAppBar1>
-      </div>
-      <div className='Intro'>
-        <img className='introImage' src={introImage} alt='Person meditating'></img>
-      <Introduction></Introduction>
-      </div>
-      <AboutUs></AboutUs>
-      <Team></Team>
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/psychotherapy'>
+            <Psychotherapy />
+        </Route>
+        <Route path='/sextherapy'>
+            <SexTherapy></SexTherapy>
+        </Route>
+        <Route path='/forms'>
+            <Forms />
+        </Route>
+        <Route path='/'>
+            <Home></Home>
+        </Route>
+      </Switch>
+  </Router>
   );
 }
 
