@@ -32,22 +32,26 @@ font-weight: 500;
 font-size: 30px
 }
 .IntroductionText p {
-  color: #6B3B91
+  color: #6B3B91;
+  font-weight: 400;
 }
 .introImage{
   width: 300px;
 height: 300px;
-  box-shadow: inset 0px 4.25445px 4.25445px rgba(0, 0, 0, 0.25);
-border-radius: 232.399px;
+box-shadow: inset 0px 4.25445px 4.25445px rgba(0, 0, 0, 0.25);
+
 }
 .Intro{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .Intro img{
   margin-right: 100px;
+  box-shadow: 0px 4.254452705383301px 4.254452705383301px 0px #000000 25% inset;
+  border-radius: 232.399px;
+
 }
 .AboutUsStart{
   display: flex;
@@ -197,11 +201,39 @@ filter: drop-shadow(0px 4.05001px 4.05001px rgba(0, 0, 0, 0.25));
 .routes a {
   text-decoration: none;
   color: #6B3B91;
+  font-size: 21px;
+  padding: auto;
+}
+.languages{
+  background-color: white;
+  margin-top: 4px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.languages a{
+  text-decoration: none;
+  color: #979797;
+  font-size: 17px;
+  padding: auto;
+  font-weight: 500;
 }
 .routes {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  height: 50px;
+  align-items: center;
 }
 #modalh2 {
   font-family: Raleway;
