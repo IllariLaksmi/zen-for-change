@@ -1,7 +1,9 @@
 import React from "react";
+import NavBar from './navBar'
 function SexTherapy(params) {
   return (
     <div className="IntroductionText">
+      <NavBar />
       <h1>Sex Therapy</h1>
       <p>
         Our sexuality is an essential part of our whole being, our objective is

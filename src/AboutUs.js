@@ -10,34 +10,27 @@ export default function Welcome() {
         <div className='AboutUsStartText'>
           <h1>About us</h1>
           <h3>
-            Zen for Change is a welcoming and non-judgemental client centered
-            environment. We highly value the relationship that we create with our
-            clients as we offer a safe space for healing. <br></br><br></br> Expertize in
-            the sexual and mental health fields providing services from an
-            intersectional lens with a broad understanding of cultural diversity.
+            We provide expertise in the sexual and mental health fields by providing holistic services with a broad understanding of cultural diversity.
         </h3>
         </div>
       </div>
       <br></br>
-      <div className='AboutUsEnd'> 
+      <div className='AboutUsEnd'>
         <div className='AboutUsEndText'>
           <div>
-          <h1>Our mission</h1>
-          <h3>
-            Our purpose is to provide therapy and consulting services in the
-            sexual and mental health field to assist clients live the life that
-            they imagine for themselves.
+            <h1>Our mission</h1>
+            <h3>
+              Our purpose is to provide therapy and consulting services in the sexual and mental health fields to empower clients to live the life that they imagine for themselves
           </h3>
-          <h1>Our vision</h1>
-          <h3>
-            To be the leading bilingual organization in the sexual and mental
-            health field.
+            <h1>Our vision</h1>
+            <h3>
+            To be the leading bilingual organization on sexual and mental health in the Maryland area.
           </h3>
           </div>
         </div>
         <div>
-        <img src={sofaZFC}  alt="Estefania"></img>
-      </div>
+          <img src={sofaZFC} alt="Estefania"></img>
+        </div>
       </div>
 
     </div>

@@ -22,13 +22,18 @@
   z-index: -1;
 }
 .IntroductionText {
-   width: 35em;
    text-align: left;
+   margin-left: auto;
+   margin-right: auto;
    font-family: 'Montserrat'
+}
+#imgPsycho {
+  width:350px;
+  height:210px;
 }
 .IntroductionText h1{
 color: #57B007;
-font-weight: 500;
+font-weight: 600;
 font-size: 30px
 }
 .IntroductionText p {
@@ -91,6 +96,7 @@ box-shadow: inset 0px 4.25445px 4.25445px rgba(0, 0, 0, 0.25);
 }
 Slider {
 width: 70%;
+height: 500px;
 }
 .Estefania {
   background: linear-gradient(102.89deg, #B9FBFF 7.35%, rgba(255, 255, 255, 0) 79.44%), #E8D2FA;
@@ -99,6 +105,7 @@ box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 20.4756px;
 width: 70%;
+height: 300px;
 
 }
 .Estefania img{
@@ -117,6 +124,12 @@ font-weight: bold;
   font-weight: normal;
   color: #4B8589;
 }
+.carousel-prev:before {
+  background-image: url('https://www.flaticon.es/svg/vstatic/svg/32/32213.svg?token=exp=1616265698~hmac=2ba996bcc4e7ba65ead25a5a179ae850');
+}
+.carousel-next:before {
+  background-image: url('https://www.flaticon.es/svg/vstatic/svg/32/32213.svg?token=exp=1616265698~hmac=2ba996bcc4e7ba65ead25a5a179ae850');
+}
 .size {
   display: flex;
   flex-direction: row;
@@ -125,6 +138,7 @@ font-weight: bold;
 .team {
   margin-top: 300px;
   width: 70%;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -166,7 +180,7 @@ filter: drop-shadow(0px 4.05001px 4.05001px rgba(0, 0, 0, 0.25));
 }
 .Reccomendations h1 {
   color: #57B007;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 35px;
 }
 .Reccomendations img {
@@ -174,9 +188,13 @@ filter: drop-shadow(0px 4.05001px 4.05001px rgba(0, 0, 0, 0.25));
   height: 200px;
 }
 .recText{
-  background: #E7C9FF;
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  font-family: 'Montserrat';
+  padding: 20px 40px;
+  text-align: center;
+  color: #6B3B91;
 }
 .recSection{
   display: flex;
@@ -188,11 +206,23 @@ filter: drop-shadow(0px 4.05001px 4.05001px rgba(0, 0, 0, 0.25));
   margin-left: auto;
   margin-right: auto;
 }
+.FAQ h1{
+  color: #57B007;
+}
+.question{
+  color: #6B3B91;
+}
+.answer{
+  color: #4B8589;
+}
 .getInTouch{
   margin-top: 300px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+.getInTouch h1 {
+  color: #57B007;
 }
 .Footer{
   background: #6B3B91;
@@ -274,4 +304,129 @@ outline:none;
     opacity: 1;
 
   }
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 874.3px;
+  height:320.6px;
+  border-radius: 10px;
+}
+.image:hover{
+  cursor: pointer;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #6B3B91;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #6B3B91;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 2s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 2s;
+  transform: scale(1.08);
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: 3px solid #B9FBFF;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+padding: 2%;
+}
+.contactButtons button {
+  background: #FFFFFF;
+border-radius: 20px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+color: #4B8589;
+padding: 20px;
+outline:none;
+border: none;
+font-family: 'Montserrat';
+font-weight: 400;
+font-size: large;
+}
+.contactButtons button:hover {
+cursor: pointer;
+}
+.formulario input, textarea{
+  width: 90%;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #DBB4FB;
+border: 1px solid #6B3B91;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-right: auto;
+margin-left: auto;
+outline: none;
+}
+.formulario input {
+  height: 40px;
+}
+.formulario input::placeholder {
+  font-family: 'Raleway';
+  font-size: 20px;
+  color:#6B3B91;
+  padding-left:10px;
+}
+.formulario textarea::placeholder {
+  font-family: 'Raleway';
+  font-size: 20px;
+  color:#6B3B91;
+  padding-left:10px;
+}
+.formulario textarea{
+  height: 150px;
+}
+.contactButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.getInTouch h3{
+  color: #6B3B91;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+.psychoStyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.psychoStyle p{
+  width:40%;
 }

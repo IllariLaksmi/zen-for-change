@@ -10,6 +10,7 @@ import AboutUs from './AboutUs'
 import Recommendations from './Recommendations'
 import Call from './Call'
 import WelcomeModal from './WelcomeModal'
+import { SliderData } from './SliderData'
 
 function Home() {
     return (
@@ -22,8 +23,8 @@ function Home() {
             <img className='introImage' src={introImage} alt='Person meditating'></img>
           <Introduction></Introduction>
           </div>
-          <AboutUs></AboutUs>
-          <Team></Team>
+          <AboutUs></AboutUs><br></br>
+          <Team slides={SliderData}></Team>
           <Recommendations></Recommendations>
           <FAQ></FAQ>
           <GetInTouch></GetInTouch>

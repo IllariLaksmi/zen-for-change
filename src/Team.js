@@ -1,50 +1,41 @@
-import React from "react";
-import Slider from "infinite-react-carousel";
-import estefania from "./img/estefania.png";
-import abimelec from "./img/abimelec.png";
-import keysharely from "./img/keisharely.png";
-const SimpleSlider = () => (
-  <Slider dots>
-    <div className="Estefania">
-      <div className='size'>
-        <div>
-          <img src={estefania} alt="Estefania"></img>
-        </div>
-        <div>
-          <h3>Estefanía Simich Muñoz MA, NCC, LCPC, CST</h3>
-          <p>
-            Psychotherapist, Sex Therapist, Clinical Director & Consultant Owner
-            of Zen for change
-          </p>
-        </div>
-      </div>
-    </div>
-    <div className="Estefania">
-        <div className='size'>
-      <img src={keysharely} alt="Keysharely"></img>
-      <div>
-        <h3>Keisharely Pérez Arocho</h3>
-        <p>Graduate Professional Counselor </p>
-      </div>
-      </div>
-    </div>
-    <div className="Estefania">
-        <div className='size'>
-      <img src={abimelec} alt="Abimelec"></img>
-      <div>
-        <h3>Abimelec Torres Serrano, MS, NCC, LGPC</h3>
-        <p>Graduate Professional Counselor </p>
-      </div>
-      </div>
-    </div>
-  </Slider>
-);
+import React, { useState } from 'react';
+import { SliderData } from './SliderData'; 
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
-export default function Welcome() {
+const ImageSlider = ({ slides }) => {
+  const [current, setCurrent] = useState(0);
+  const length = slides.length;
+
+  const nextSlide = () => {
+    setCurrent(current === length - 1 ? 0 : current + 1);
+  };
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? length - 1 : current - 1);
+  };
+
+  if (!Array.isArray(slides) || slides.length <= 0) {
+    return null;
+  }
+
   return (
-    <div className='team'>
-      <h1>Meet our team!</h1><br></br>
-      <SimpleSlider className='team'></SimpleSlider>
-    </div>
+    <section className='slider'>
+      <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+      {SliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === current ? 'slide active' : 'slide'}
+            key={index}
+          >
+            {index === current && (
+              <img src={slide.image} alt='travel image' className='image' />
+            )}
+          </div>
+        );
+      })}
+    </section>
   );
-}
+};
+
+export default ImageSlider;
