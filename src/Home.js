@@ -1,6 +1,4 @@
 import NavBar from './navBar'
-
-import introImage from './img/introImage.jpg'
 import Introduction from './Introduction'
 import Team from './Team'
 import GetInTouch from './GetInTouch'
@@ -9,6 +7,7 @@ import FAQ from './FAQ'
 import AboutUs from './AboutUs'
 import Recommendations from './Recommendations'
 import Call from './Call'
+import Doxy from './doxy'
 import WelcomeModal from './WelcomeModal'
 import { SliderData } from './SliderData'
 
@@ -18,11 +17,9 @@ function Home() {
         <div>
             <NavBar />
             <WelcomeModal />
+            <Doxy />
             <Call />
-          <div className='Intro'>
-            <img className='introImage' src={introImage} alt='Person meditating'></img>
           <Introduction></Introduction>
-          </div>
           <AboutUs></AboutUs><br></br>
           <Team slides={SliderData}></Team>
           <Recommendations></Recommendations>

@@ -19,6 +19,8 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
+    <div className='teamContainer'> 
+            <h1>Meet the team!</h1><br></br><br></br>
     <section className='slider'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
@@ -35,6 +37,7 @@ const ImageSlider = ({ slides }) => {
         );
       })}
     </section>
+    </div>
   );
 };
 

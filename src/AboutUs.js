@@ -1,21 +1,25 @@
 import React from "react";
 import estefaniaAboutUs from './img/estefaniaAboutUs.jpeg'
+import Values from './img/values.png'
 import sofaZFC from './img/sofaZFC.jpeg'
 
 export default function Welcome() {
   return (
     <div className='AboutUs'>
       <div className='AboutUsStart'>
-        <img src={estefaniaAboutUs} alt="Estefania"></img>
+        <img id='startImage' src={estefaniaAboutUs} alt="Estefania"></img>
         <div className='AboutUsStartText'>
           <h1>About us</h1>
           <h3>
             We provide expertise in the sexual and mental health fields by providing holistic services with a broad understanding of cultural diversity.
         </h3>
+        <div><img src={Values}></img></div>
         </div>
       </div>
       <br></br>
       <div className='AboutUsEnd'>
+        
+        
         <div className='AboutUsEndText'>
           <div>
             <h1>Our mission</h1>
