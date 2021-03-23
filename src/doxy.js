@@ -10,8 +10,8 @@ const useStyles = makeStyles((theme) => ({
       bottom: '150px',
       right: '50px',
       backgroundColor: '#6B3B91',
-      width: '100px',
-      height:'100px',
+      width: '105px',
+      height:'105px',
     },
   },
   extendedIcon: {
@@ -25,9 +25,9 @@ export default function FloatingActionButtons() {
   return (
     <div className={classes.root}>
       <Fab  aria-label="add">
-      <span href='https://doxy.me/zenforchange' id='callIcon' class="iconify" data-icon="whh:appointment" data-inline="false" style={{ color:`#B073E1`,
+      <a href="https://doxy.me/zenforchange" width='70px' height='20px'><span href='https://doxy.me/zenforchange' id='callIcon' class="iconify" data-icon="whh:appointment" data-inline="false" style={{ color:`#B073E1`,
 width:`70px`,
-height:`70px`, }}></span>
+height:`70px`, }}></span></a>
       </Fab>
     </div>
   );
