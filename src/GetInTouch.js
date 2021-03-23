@@ -1,8 +1,12 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
+import NavBar from './navBar';
 function GetInTouch() {
-    return (
+    return ( 
+        <div>
+            <NavBar />
         <div className='getInTouch'>
+            
             <h1>Let's get in touch</h1>
             <div className='contactButtons'>
                 <div>
@@ -23,6 +27,7 @@ function GetInTouch() {
                 <button type="submit" name="Submit" value="Enviar">Send</button>
                 </form>
             </div>
+        </div>
         </div>
     )
     

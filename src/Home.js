@@ -24,7 +24,6 @@ function Home() {
           <Team slides={SliderData}></Team>
           <Recommendations></Recommendations>
           <FAQ></FAQ>
-          <GetInTouch></GetInTouch>
           <Footer></Footer>
         </div>
       </div>

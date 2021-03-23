@@ -4,13 +4,16 @@ import Keisharely from './img/keisharely.png'
 
 export const SliderData = [
     {
-      image: Estefania
+      image: Estefania,
+      link: '/estefania'
     },
     {
-      image: Keisharely
+      image: Keisharely,
+      link: '/keisharely'
     },
     {
-      image:Abimelec
+      image:Abimelec,
+      link: '/abimelec'
     },
 
   ];

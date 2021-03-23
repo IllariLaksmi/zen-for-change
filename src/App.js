@@ -9,6 +9,11 @@ import Home from './Home'
 import Psychotherapy from './Psychotherapy'
 import SexTherapy from './SexTherapy'
 import Forms from './Forms'
+import AdditionalServices from './additionalServices'
+import GetInTouch from './GetInTouch'
+import Estefania from './estefania';
+import Keisharely from './keisharely';
+import Abimelec from './abimelec';
 
 
 
@@ -16,18 +21,33 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path='/psychotherapy'>
+        <Route exact path='/psychotherapy'>
             <Psychotherapy />
         </Route>
-        <Route path='/sextherapy'>
+        <Route exact path='/sextherapy'>
             <SexTherapy></SexTherapy>
         </Route>
-        <Route path='/forms'>
+        <Route exact path='/forms'>
             <Forms />
+        </Route>
+        <Route path='/additionalServices'>
+            <AdditionalServices />
+        </Route>
+        <Route path='/getInTouch'>
+            <GetInTouch />
+        </Route>
+        <Route path='/estefania'>
+            <Estefania />
+        </Route>
+        <Route path='/keisharely'>
+            <Keisharely />
+        </Route>
+        <Route path='/abimelec'>
+            <Abimelec />
         </Route>
         <Route path='/'>
             <Home></Home>
-        </Route>
+        </Route> 
       </Switch>
   </Router>
   );

@@ -12,11 +12,11 @@ function NavBar(params) {
               <ul>
                 <li><a class='optionsMenu'href='/psychotherapy'>Psychotherapy</a></li>
                 <li><a class='optionsMenu' href='/sextherapy'>Sex Therapy</a></li>
-                <li><a class='optionsMenu' >Additional services</a></li>
+                <li><a class='optionsMenu' href='/additionalServices'>Additional services</a></li>
               </ul>
             </li>
-            <li><a >Forms</a></li>
-            <li><a href='/forms'>Contact</a></li>
+            <li><a href='/forms' >Forms</a></li>
+            <li><a href='/getInTouch'>Contact</a></li>
           </ul>
         </div>
         <div className='languages'>
