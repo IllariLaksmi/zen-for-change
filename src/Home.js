@@ -22,7 +22,7 @@ function Home() {
             <NavBarResponsive />
             <WelcomeModal />
             <Doxy />
-            <Call />
+{/*             <Call /> */}
           <Introduction></Introduction>
           <AboutUs></AboutUs><br></br>
           
