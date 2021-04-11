@@ -23,7 +23,7 @@ export default function Welcome() {
       <br></br>
       <div className='AboutUsEnd'>
         <div className='AboutUsEndText'>
-          <Divider></Divider>
+
           <div>
             <h1>Our mission</h1>
             <h3>

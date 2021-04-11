@@ -512,8 +512,15 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 }
 .recText {
   font-size: 4vw;
+  width:100%;
 
 }
+.recSection {
+  font-size: 4vw;
+  width:100%;
+
+}
+
 }
 .FAQ {
   margin-top: 300px;
