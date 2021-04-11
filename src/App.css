@@ -261,13 +261,13 @@ font-family: 'Bitter', serif;
     width: 75%;
   }
   .whyText img {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vw;
   }
   
   .whyText p {
     width:120%;
-    font-size: 3vw;
+    font-size: 5vw;
   }
 }
 
