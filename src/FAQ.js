@@ -36,6 +36,7 @@ const AccordionSummary = withStyles({
     marginRight: 'auto',
     marginLeft: 'auto',
     borderBottom: '1px solid rgba(0, 0, 0, .125)',
+    border: '3px',
     width: '50vw',
     marginBottom: -1,
     minHeight: 56,
@@ -69,7 +70,7 @@ export default function CustomizedAccordions() {
     <div className='FAQ'>
       <h1>Frequent Asked Questions</h1><br></br><br></br>
       
-        <Accordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        <Accordion id='accordion' square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
             <Typography className='question'><b>Q: What can I expect during our first meeting?</b></Typography>
           </AccordionSummary>
