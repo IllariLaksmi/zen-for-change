@@ -19,8 +19,8 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <div id='Team' className='teamContainer'> 
-            <h1>Meet the team!</h1><br></br>
+    <div id='teamR' className='teamContainer'> 
+            <h1>Meet the team!</h1>
     <section className='slider'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
@@ -31,7 +31,7 @@ const ImageSlider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <a href= {slide.link}><img src={slide.image} alt='travel image' className='image' /></a>
+              <a href= {slide.link}><img src={slide.imageR} alt='travel image' className='image' /></a>
             )}
           </div>
         );

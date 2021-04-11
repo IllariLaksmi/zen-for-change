@@ -111,7 +111,7 @@ ul.routes {
     background-color: white;
     width: 100vw;
     height: 30%;
-    padding: 10px;
+    padding: 0px;
     align-items: center;
     box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
 
@@ -431,6 +431,9 @@ font-weight: bold;
 .carousel-next:before {
   background-image: url('https://www.flaticon.es/svg/vstatic/svg/32/32213.svg?token=exp=1616265698~hmac=2ba996bcc4e7ba65ead25a5a179ae850');
 }
+#teamR{
+  display: none;
+}
 .size {
   display: flex;
   flex-direction: row;
@@ -465,7 +468,8 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 .Reccomendations h1 {
   color: #57B007;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 3vw;
+  font-family: 'Raleway', sans-serif;
 }
 .Reccomendations img {
   width: 200px;
@@ -474,12 +478,14 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 .recText{
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  font-family: 'Montserrat';
+  border-radius: 70%;
+
+    font-family: 'Raleway', sans-serif;
   padding: 20px 40px;
   text-align: center;
-  color: #6B3B91;
+  color: #a069ce;
 }
+
 .recSection{
   display: flex;
   flex-direction: row;
@@ -494,12 +500,20 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 .FAQ h1{
   color: #57B007;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 3vw;
+  font-family: 'Raleway', sans-serif;
+}
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: Raleway;
+ font-weight: bold; 
+  line-height: 1.5;
 }
 .question{
   color: #6B3B91;
-  font-family: 'Montserrat';
+  font-family: 'Raleway',sans-serif;
   font-size: larger;
+  font-weight: bolder;
 }
 .answer{
   color: #4B8589;
@@ -662,8 +676,28 @@ outline:none;
     font-size: 2rem;
   }
   .teamContainer h1{
-    font-size: 8vw;
+    font-size: 12vw;
   }
+  #teamR{
+    display: flex;
+    flex-direction: column;
+  }
+  #Team{
+    display: none;
+  }
+  .image{
+    width: 80%;
+  }
+  .slider {
+    height: 100%;
+    width: 100%;
+  }
+  .teamContainer {
+    margin-top: 100px;
+}
+.slide.active {
+  width: 80%;
+}
 
 }
 .formulario{

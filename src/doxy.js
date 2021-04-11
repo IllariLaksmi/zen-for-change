@@ -25,6 +25,7 @@ export default function FloatingActionButtons() {
   return (
     <div id='doxy' className={classes.root}>
       <Fab  aria-label="add">
+        <h4>Appointment</h4>
       <a href="https://doxy.me/zenforchange" width='70px' height='20px'><span href='https://doxy.me/zenforchange' id='callIcon' class="iconify" data-icon="whh:appointment" data-inline="false" style={{ color:`#B073E1`,
 width:`5vw`,
 height:`5vw`, }}></span></a>

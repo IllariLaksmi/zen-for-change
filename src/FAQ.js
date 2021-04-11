@@ -9,7 +9,8 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
   typography: {
-    fontFamily: 'Montserrat'
+    fontFamily: 'Raleway',
+    fontWeight: 'bolder'
   },
 });
 const Accordion = withStyles({
@@ -35,7 +36,7 @@ const AccordionSummary = withStyles({
     marginRight: 'auto',
     marginLeft: 'auto',
     borderBottom: '1px solid rgba(0, 0, 0, .125)',
-    width: '93%',
+    width: '50vw',
     marginBottom: -1,
     minHeight: 56,
     '&$expanded': {

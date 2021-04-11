@@ -2,6 +2,7 @@ import NavBar from './navBar'
 import NavBarResponsive from './navBarResponsive'
 import Introduction from './Introduction'
 import Team from './Team'
+import TeamR from './TeamR'
 import GetInTouch from './GetInTouch'
 import Footer from './footer'
 import FAQ from './FAQ'
@@ -26,6 +27,7 @@ function Home() {
           <AboutUs></AboutUs><br></br>
           
           <Team slides={SliderData}></Team>
+          <TeamR slides={SliderData}></TeamR>
           <Recommendations></Recommendations>
           <FAQ></FAQ>
           <Footer></Footer>
