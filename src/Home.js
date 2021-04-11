@@ -1,4 +1,5 @@
 import NavBar from './navBar'
+import NavBarResponsive from './navBarResponsive'
 import Introduction from './Introduction'
 import Team from './Team'
 import GetInTouch from './GetInTouch'
@@ -16,6 +17,7 @@ function Home() {
       <div className="App">
         <div>
             <NavBar />
+            <NavBarResponsive />
             <WelcomeModal />
             <Doxy />
             <Call />

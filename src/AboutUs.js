@@ -11,7 +11,9 @@ export default function Welcome() {
         <div className='AboutUsStartText'>
           <h1>About us</h1>
           <h3>
-            We provide expertise in the sexual and mental health fields by providing holistic services with a broad understanding of cultural diversity.
+          Zen for Change, LLC is a bilingual (English/Spanish) and multicultural practice that was established after identifying a great need for services in the community.
+Our focus is to assist our clients find a safe and respectful place of healing and support through their life journey. Our holistic approach to therapy is essential to the work we do. It is through this lens that we provide services from a broad understanding of cultural diversity. 
+
         </h3>
         <div><img src={Values}></img></div>
         </div>
@@ -24,11 +26,11 @@ export default function Welcome() {
           <div>
             <h1>Our mission</h1>
             <h3>
-              Our purpose is to provide therapy and consulting services in the sexual and mental health fields to empower clients to live the life that they imagine for themselves
+            Our purpose is to provide sex and mental health therapy and consulting services by empowering our clients to live the lives that they have imagined for themselves. 
           </h3>
             <h1>Our vision</h1>
             <h3>
-            To be the leading bilingual organization on sexual and mental health in the Maryland area.
+            Strengthen our community by assisting our clients to trust their intuition, inner power and strength to overcome life’s obstacles.  
           </h3>
           </div>
         </div>

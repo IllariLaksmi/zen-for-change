@@ -10,7 +10,7 @@ import Psychotherapy from './Psychotherapy'
 import SexTherapy from './SexTherapy'
 import Forms from './Forms'
 import AdditionalServices from './additionalServices'
-import GetInTouch from './GetInTouch'
+import Resources from './GetInTouch'
 import Estefania from './estefania';
 import Keisharely from './keisharely';
 import Abimelec from './abimelec';
@@ -33,8 +33,8 @@ function App() {
         <Route path='/additionalServices'>
             <AdditionalServices />
         </Route>
-        <Route path='/getInTouch'>
-            <GetInTouch />
+        <Route path='/resources'>
+            <Resources />
         </Route>
         <Route path='/estefania'>
             <Estefania />

@@ -2,11 +2,19 @@ import React from 'react';
 import FrontPage from './img/frontPage.png'
 function Introduction(params) {
     return (
-        <div className='IntroductionText'>
-            <img className='introImage' src={FrontPage}></img>
-            <div>
-            <h1>Welcome to Zen for Change, a private practice in Fells Point-Baltimore</h1>
-            <p>We are a mental health and sex therapy practice with a special focus on culture, diversity and trauma. We understand that finding a place we can trust to tell our stories is essential to finding a path to healing, recovery, and transformation.<br></br>We are here to assist you with your needs and collaboratively work towards your goals.</p>
+        <div >
+            <div className='IntroductionText'>
+                <img className='introImage' src={FrontPage}></img>
+                <div className ='introText'>
+                <h1>Welcome to Zen for Change</h1>
+                <p>We are a mental health and sex therapy practice with a special focus on culture, diversity, and trauma. <br></br> We understand that finding a place we can trust to tell our stories is essential to find a path for healing, recovery, and transformation.<br></br> An unknown path is only unknown until you are ready to explore it. We are here to assist you explore your needs and collaboratively work towards your goals.</p>
+                </div>
+            </div>
+            <div className ='whyText'>               
+                    <h2>Why Zen for Change?</h2>
+                    <p>
+                         We believe that part of the process of finding ourselves in this rapid paced world is to stop and take a moment of stillness to reflect. By exploring this sense of stillness we are able to reflect on our inner self and use our intuition to identify what we need to move forward in our path.
+                    </p>
             </div>
         </div>
     )

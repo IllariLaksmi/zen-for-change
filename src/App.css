@@ -1,21 +1,147 @@
 .App {
   text-align: center;
 }
+/*----------------------------------------- Navigation bar------------------------------------------------- */ 
 .NavBar{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1000px;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Raleway', sans-serif;
   box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+}
+.routes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
 
-
+}
+.routes >li {
+  float: center;
+  margin-top: 5px;
+  padding: 10px, 20px;
+}
+.routes li:hover > ul{
+  display: block;
+  background-color: #E8D2FA;
+  text-align: left;
+  cursor: pointer;
+  width: 180px;
+  border-radius: 20px;
+  font-size: small;
+}
+.routes li ul{
+  display:none;
+  position: absolute;
+  min-width: 140px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.optionsMenu{
+  font-size: 10px;
+}
+.routes li ul li{
+  border-bottom: rgb(255, 255, 255) 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 100%;
+}
+ul.routes {
+  margin: 0;
+  padding: 10px;
 }
 .routes li{
   list-style: none;
 }
+.routes a {
+  text-decoration: none;
+  color: #6B3B91;
+  font-size: 150%;
+  padding: 10px;
+}
+.languages{
+  background-color: white;
+  margin-top: 4px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+.languages a{
+  text-decoration: none;
+  color: #979797;
+  font-size: 120%;
+  padding: auto;
+  font-weight: 500;
+}
+.responsiveNavBar{
+  display: none;
+}
+
+
+ 
+/*---------------------------------- -Navigation bar MEDIA-QUERY----------------------------------------------*/ 
+
+@media (max-width: 1200px) {
+  .routes a {
+    font-size: 120%;
+  }
+  .languages a{
+    font-size: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .totalNavBar{
+    display: none;
+  }
+  .responsiveNavBar{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 30%;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+
+  }
+  .NavBar {
+    width: 100%;
+  }
+  .responsiveNavBar img{
+    width: 80%;
+    height: 80%;
+
+  }
+  .navBarR {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #menuIcon {
+    margin-top: 10%;
+    font-size: 20vw;
+    color:#6B3B91
+  }
+  #menuIcon:hover {
+    cursor: pointer;
+  }
+
+}
+
+
+/*---------------------------------- -Introduction----------------------------------------------*/ 
 .upHeader{
   position: absolute;
   z-index:1;
@@ -25,15 +151,44 @@
   top:-50px;
   z-index: -1;
 }
+.whyText {
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.whyText h2 {
+  background-color: white;
+  box-shadow: 1px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+  width: 30%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: thin;
+  font-size: 200%;
+
+}
+.whyText p {
+  background-color: white;
+  box-shadow: 1px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+  width: 50%
+}
 .IntroductionText {
    text-align: left;
    margin-left: auto;
    margin-right: auto;
-   font-family: 'Montserrat';
-   margin-top: 30px;
+   margin-top: 40px;
+   width: 75%;
    display: flex;
    flex-direction: row;
    justify-content:center;
+
+}
+.introText{
+  padding: 10px;
+  width: 50%
 }
 #imgPsycho {
   width:350px;
@@ -42,21 +197,22 @@
 .IntroductionText h1{
 color: #57B007;
 font-weight: 500;
-font-size: 30px;
-width: 500px;
+font-size: 2.8vw;
+width: 100%;
+font-family: 'Bitter', serif;
 }
 
 .IntroductionText p {
-  color: hsl(273, 42%, 40%);
+  color:#a069ce;
   font-weight: 400;
-  font-size: 15px;
-  width: 500px;
+  font-size:1.2vw;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
 }
 .introImage{
-  width: 300px;
-height: 300px;
-margin-right: 80px;
-box-shadow: inset 0px 4.25445px 4.25445px rgba(0, 0, 0, 0.25);
+  width: 25%;
+  height: 25%;
+  margin-right: 10%;
 
 }
 .Intro{
@@ -71,6 +227,41 @@ box-shadow: inset 0px 4.25445px 4.25445px rgba(0, 0, 0, 0.25);
   border-radius: 232.399px;
 
 }
+
+/*----------------------------------- Introduction MEDIA QUERY----------------------------------------------*/ 
+@media (max-width: 700px) {
+  .introImage{
+    width: 100%;
+    height: 100%;
+  }
+  .IntroductionText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .introImage{
+  margin-right: 0;
+
+ }.IntroductionText p {
+    width:200%;
+    font-size: 5vw;
+
+  }
+  .IntroductionText h1 {
+    width: 200%;
+    font-size: 10vw;
+
+  }
+  #call {
+    display: none;
+  }
+  #doxy {
+    display: none;
+  }
+}
+
+/*------------------------------------ About Us----------------------------------------------*/ 
+
 .AboutUsStart{
   display: flex;
   flex-direction: row;
@@ -111,10 +302,17 @@ box-shadow: inset 0px 4.25445px 4.25445px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: space-between;
 }
-Slider {
-width: 70%;
-height: 300px;
+/*--------------------------------About us MEDIA QUERY-------------------------------------------------*/
+@media (max-width: 700px) {
+  .AboutUsStart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
 }
+/*--------------------------------Team-------------------------------------------------*/
+
 .Estefania {
   background: linear-gradient(102.89deg, #B9FBFF 7.35%, rgba(255, 255, 255, 0) 79.44%), #E8D2FA;
 border: 1px solid #B9FBFF;
@@ -274,76 +472,8 @@ footer a{
   width: 20px;
 height: 20px;
 color: #FFFFFF;}
-.routes a {
-  text-decoration: none;
-  color: #6B3B91;
-  font-size: 21px;
-  padding: auto;
-}
-.languages{
-  background-color: white;
-  margin-top: 4px;
-  height: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Raleway', sans-serif;
-  box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
 
-}
-.languages a{
-  text-decoration: none;
-  color: #979797;
-  font-size: 17px;
-  padding: auto;
-  font-weight: 500;
-}
-.routes {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  height: 50px;
-  align-items: center;
 
-}
-.routes >li {
-  float: center;
-  margin-top: 5px;
-  padding: 10px, 20px;
-}
-.routes li:hover > ul{
-  display: block;
-  background-color: #E8D2FA;
-  text-align: left;
-  cursor: pointer;
-  width: 180px;
-  border-radius: 20px;
-  font-size: small;
-}
-.routes li ul{
-  display:none;
-  position: absolute;
-  min-width: 140px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.optionsMenu{
-  font-size: 10px;
-}
-.routes li ul li{
-  border-bottom: rgb(255, 255, 255) 1px solid;
-  border-radius: 20px;
-  padding: 5px;
-  font-size: 5px;
-}
-ul.routes {
-  margin: 0;
-}
 #modalh2 {
   font-family: Raleway;
   font-style: normal;
@@ -401,12 +531,13 @@ outline:none;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
 
 }
 
 .image {
-  width: 874.3px;
-  height:320.6px;
+  width: 80%;
+  height:20%;
   border-radius: 10px;
 }
 .image:hover{
