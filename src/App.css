@@ -455,6 +455,7 @@ box-sizing: border-box;
 filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 }
 
+
 .Reccomendations {
   width: 70%;
   margin-left: auto;
@@ -588,7 +589,8 @@ outline:none;
 .teamContainer h1{
   color: #57B007;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 10vw;
+  font-family: 'Raleway', sans-serif;
 
 }
 .slider {
@@ -598,13 +600,17 @@ outline:none;
   justify-content: center;
   align-items: center;
   width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 .image {
-  width: 80%;
+  width: 70%;
   height:20%;
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .image:hover{
   cursor: pointer;
@@ -641,6 +647,22 @@ outline:none;
   opacity: 1;
   transition-duration: 2s;
   transform: scale(1.08);
+}
+
+/*--------------------------------About us MEDIA QUERY-------------------------------------------------*/
+@media (max-width: 700px) {
+  .right-arrow { 
+    top: 45%;
+    right: 1vw;
+    font-size: 2rem;
+  }
+  
+  .left-arrow {
+    top: 45%;
+    left: 1vw;
+    font-size: 2rem;
+  }
+
 }
 .formulario{
   display: flex;
