@@ -12,6 +12,7 @@ import Doxy from './doxy'
 import WelcomeModal from './WelcomeModal'
 import { SliderData } from './SliderData'
 
+
 function Home() {
     return (
       <div className="App">
@@ -23,6 +24,7 @@ function Home() {
             <Call />
           <Introduction></Introduction>
           <AboutUs></AboutUs><br></br>
+          
           <Team slides={SliderData}></Team>
           <Recommendations></Recommendations>
           <FAQ></FAQ>

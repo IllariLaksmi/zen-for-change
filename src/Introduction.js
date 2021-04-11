@@ -1,6 +1,7 @@
 import React from 'react';
 import FrontPage from './img/frontPage.png'
 import Why from './img/why.png'
+
 function Introduction(params) {
     return (
         <div >
@@ -15,6 +16,7 @@ function Introduction(params) {
                     <img src={Why}></img>
                     <p>We believe that part of the process of finding ourselves in this rapid paced world is to stop and take a moment of stillness to reflect. By exploring this sense of stillness we are able to reflect on our inner self and use our intuition to identify what we need to move forward in our path.</p>
             </div>
+            
         </div>
     )
 
