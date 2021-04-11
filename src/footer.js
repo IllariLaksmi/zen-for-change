@@ -14,7 +14,7 @@ function Footer(params) {
             <div className='contactButtons'>
                     <div>
                         <h3>Call me</h3>
-                    <a href="tel:+1(443)326-9018"><span class="iconify" data-icon="bx:bxs-phone-call" data-inline="false"></span> +1 (000) 000-0000</a>
+                    <a href="tel:+1(443)326-9018"><span class="iconify" data-icon="bx:bxs-phone-call" data-inline="false"></span> +1(443)326-9018</a>
                     </div>
                     <div>
                         <h3>Or email me!</h3>
