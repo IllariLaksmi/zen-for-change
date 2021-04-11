@@ -589,7 +589,7 @@ outline:none;
 .teamContainer h1{
   color: #57B007;
   font-weight: 400;
-  font-size: 10vw;
+  font-size: 3vw;
   font-family: 'Raleway', sans-serif;
 
 }
@@ -656,11 +656,13 @@ outline:none;
     right: 1vw;
     font-size: 2rem;
   }
-  
   .left-arrow {
     top: 45%;
     left: 1vw;
     font-size: 2rem;
+  }
+  .teamContainer h1{
+    font-size: 8vw;
   }
 
 }
