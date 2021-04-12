@@ -684,6 +684,8 @@ color: #FFFFFF;}
 @media(max-width: 700px){
   footer{
    flex-direction: column;
+   margin-right: auto;
+   margin-left: auto;
   }
   .contact {
     width: 100vw;
@@ -691,22 +693,32 @@ color: #FFFFFF;}
   footer h1 {
     font-size: 8vw;
     margin: none;
+    margin-right: auto;
+    margin-left: auto;
   }
   footer p {
     font-size: 3vw;
     margin: none;
+    margin-right: auto;
+    margin-left: auto;
   }
   footer a{
     width: 2vw;
   height: 2vw;
   font-size: 4vw;
-  color: #FFFFFF;}
+  color: #FFFFFF;
+  margin-right: auto;
+  margin-left: auto;}
   footer h3 {
     font-size: 4vw;
+    margin-right: auto;
+    margin-left: auto;
   }
   footer img{
     width: 60vw;
     height: 40vw;
+    margin-right: auto;
+    margin-left: auto;
   }
   .iconsSocial svg{
     width: 10vw;
@@ -734,8 +746,8 @@ color: #6B3B91;
   color: white;
   font-family: 'Raleway', sans-serif;
   border:none;
-  width: 40px;
-  height:20px;
+  width: 15vw;
+  height:40px;
   font-weight: 700;
   font-size: 1.3vw;
   box-shadow: 0px 3.08706px 3.08706px rgba(0, 0, 0, 0.25);
