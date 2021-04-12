@@ -2,15 +2,18 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
 import keisharely from './img/keisharelyCropped.png'
+import NavBarResponsive from './navBarResponsive'
+import Footer from './footer'
 function Keisharely() {
     return ( 
-        <div>
+        <div className='spaceEstefania'>
             <NavBar />
+            <NavBarResponsive />
             <div className='Estefania1'>
                 <div className='titleEstefania'>
                     <img src={keisharely}></img>
                     <div className='textEstefania'>
-                        <h2>Keysharely Pérez Arocho</h2>
+                        <h2>Keysharely Pérez Arocho, MS, NCC, LGPC</h2>
                         <h3>Graduate Professional Counselor</h3>
                     </div>
                 </div>
@@ -25,13 +28,20 @@ function Keisharely() {
                     <div>
                         <div className='sectionEstefania'>
                             <h4>Education</h4>
-                            <p>- Bachelor of Arts in Psychology. University of Puerto Rico at Mayagüez
+                            <p>- Bachelor of Arts in Psychology. University of Puerto Rico at Mayagüez<br></br><br></br>
 
                                 - Master of Science in Clinical Professional Counseling. Loyola University of Maryland</p>
+                        </div>
+                        <div className='sectionEstefania'>
+                            <h4>Licenses</h4>
+                            <p>- NCC (National Certified Counselor)<br></br><br></br>
+
+                                - LGPC (Licensed Graduate Professional Counselor) in Maryland</p>
                         </div>
             </div>
         </div>
         </div>
+        <Footer />
         </div>
     )
     

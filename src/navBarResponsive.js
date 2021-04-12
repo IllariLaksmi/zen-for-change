@@ -30,7 +30,7 @@ function NavBar(params) {
                 <a href='/sextherapy'>Sex Therapy</a><br></br>
                 <a href='/additionalServices'>Additional services</a><br></br>
                 <a href='/forms' >Forms</a><br></br>
-            <a href='/resources'>Contact</a><br></br>
+            <a href='/resources'>Resources</a><br></br>
             <a href='/aboutus'>English</a><br></br>
           <a href='/psychotherapy'>Español</a>           
         </div>

@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from './navBar';
+import NavBarResponsive from './navBarResponsive'
 import policy from './docs/cancellationpolicy.pdf';
 import confidentiality from './docs/limitsOfConfidentiality.pdf';
 import teletherapy from './docs/2020-teletherapy-therapy-form.pdf';
+import Footer from './footer'
 
 class Forms extends React.Component {
   constructor(props){
@@ -32,6 +34,7 @@ class Forms extends React.Component {
     return (
       <div>
       <NavBar />
+      <NavBarResponsive />
       <div className='pdfViewer'>
         <div className='Forms'>
           <button onClick={() => this.changeConfidentiality()}>Limits of confidentiality</button>
@@ -42,6 +45,7 @@ class Forms extends React.Component {
         <object id='viewer' data={this.state.pdf} type='application/pdf' width='100%' height='800px'></object>
         </div>
       </div>
+      <Footer />
     </div>
     );
   }

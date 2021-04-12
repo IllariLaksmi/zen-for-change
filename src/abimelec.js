@@ -3,9 +3,10 @@ import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
 import abimelec from './img/abimelecSection.png'
 import NavBarResponsive from './navBarResponsive'
+import Footer from './footer'
 function Abimelec() {
     return ( 
-        <div>
+        <div className='spaceEstefania'>
             <NavBar />
             <NavBarResponsive />
             <div className='Estefania1'>
@@ -38,6 +39,7 @@ function Abimelec() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
     

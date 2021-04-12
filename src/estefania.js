@@ -3,16 +3,17 @@ import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
 import photo from './img/photo.png'
 import NavBarResponsive from './navBarResponsive'
+import Footer from './footer'
 function Estefania() {
     return (
-        <div>
+        <div className='spaceEstefania'>
             <NavBar />
             <NavBarResponsive />
             <div className='Estefania1'>
                 <div className='titleEstefania'>
                     <img src={photo}></img>
                     <div className='textEstefania'>
-                        <h2>Estefanía Simich Muñoz, MA, NCC, LCPC, CST</h2>
+                        <h2>Estefanía Simich Muñoz, MA, NCC, LCPC, CST, PhD candidate</h2>
                         <h3>Psychotherapist, Sex Therapist, Clinical Supervisor & Consultant</h3>
                     </div>
                 </div>
@@ -39,7 +40,7 @@ function Estefania() {
 
                             - LCPC (Licensed Certified Professional Counselor) in Maryland<br></br><br></br>
 
-                            - LCPC Supervisor in Maryland<br></br>
+                            - LCPC Supervisor in Maryland<br></br><br></br>
 
                             - AASECT Certified Sex Therapist (American Association of Sexuality Educators, Counselors and Therapists<br></br><br></br>
 
@@ -52,13 +53,13 @@ function Estefania() {
                     <div className='sectionEstefania'>
                         <h4>Publications & conferences</h4>
                         <p>
-                            - Collaboration in the book: Juvenile Delinquency. Legislation, treatment and Collaboration in the book: https://www.ulima.edu.pe/publicaciones/delinntación-juvenil-legislacion-tratamiento-y-criminalidad Universidad de Lima, Peru. 2016.<br></br><br></br>
+                            - Collaboration in the book: Juvenile Delinquency. Legislation, treatment and Collaboration in the book: <a href="https://www.ulima.edu.pe/publicaciones/delinntación-juvenil-legislacion-tratamiento-y-criminalidad">Link</a>  Universidad de Lima, Peru. 2016.<br></br><br></br>
 
                             - Collaboration in Guide for the Detection and Referral of Victims of ESNNA, Ministry of Women and Vulnerable Populations Lima, Peru. 2015<br></br><br></br>
 
                             - Collaboration in a training manual for police officers in caring for victims of human trafficking in Madre de Dios PROMSEX. Lima Peru. 2014.<br></br><br></br>
 
-                            - Islam and Sexuality. The Journal of Sexual Medicine. May 2017.<br></br>
+                            - Islam and Sexuality. The Journal of Sexual Medicine. May 2017.<br></br><br></br>
 
                             - The benefits of counseling skills in sexological interventions. The Journal of Sexual Medicine. September 2017.<br></br><br></br>
 
@@ -68,6 +69,7 @@ function Estefania() {
                 </div>
 
             </div>
+            <Footer />
         </div>
     )
 

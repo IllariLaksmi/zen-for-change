@@ -4,20 +4,22 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
 
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    animation: 'modal 2s 2s forwards',
+    animation: 'modal 1s 1s forwards',
     visibility: 'hidden',
     opacity: '0',
   },
   paper: {
     backgroundColor: 'white',
     padding:'50px 30px',
-    width: '30%',
+    width: '40vw',
     outline: 'none',
     textAlign: 'center',
     borderRadius:'20px',

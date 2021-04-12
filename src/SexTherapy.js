@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from './navBar'
 import sexTherapy from './img/sexTherapy.png'
 import sexTherapyIssues from './img/sexTherapyIssues.png'
+import certificate from './img/certificate.jpeg'
 import NavBarResponsive from './navBarResponsive'
 import Footer from './footer'
 function SexTherapy(params) {
@@ -10,9 +11,13 @@ function SexTherapy(params) {
     <NavBar />
     <NavBarResponsive />
     <div className="Psychotherapy">
+      
       <div className='psyRow'>
         <div >
+          <div className='sexT'>
+          <img id='certificate' src={certificate}></img>
           <h1>Sex Therapy</h1>
+          </div>
           <img id='imgPsycho' src={sexTherapy}></img>
         </div>
         <div>
