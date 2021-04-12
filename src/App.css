@@ -93,6 +93,9 @@ ul.routes {
 .menuR{
 display: none;
 }
+#reImage{
+  display: none;
+}
  
 /*---------------------------------- -Navigation bar MEDIA-QUERY----------------------------------------------*/ 
 
@@ -318,7 +321,14 @@ font-family: 'Bitter', serif;
 
 /*------------------------------------ About Us----------------------------------------------*/ 
 .AboutUs{
-  background: linear-gradient(#FFFFFF, #a069ce,#FFFFFF );
+  background: linear-gradient(#FFFFFF, #a069ce);
+}
+.pdfViewer h1{
+  font-family: 'Bitter', sans-serif;
+  color: #57B007;
+  text-align: center;
+  font-weight: 400;
+  font-size: 3vw;
 }
 
 .AboutUsStart{
@@ -1083,7 +1093,7 @@ height: 50px;
   border: none;
   font-family: 'Montserrat';
   font-weight: 400;
-  font-size: large;
+  font-size: 2vw;
   color: #4B8589;
   background-color: white;
 }
@@ -1313,5 +1323,17 @@ margin-left: 0px;
 .titleEstefania img {
   width: 70vw;
   height: 40vw;
+}
+#reImage{
+  display: flex;
+  width: 70vw;
+  height: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+}
+.pdfViewer h1{
+
+  font-size: 8vw;
 }
 }

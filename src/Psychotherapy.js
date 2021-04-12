@@ -25,7 +25,7 @@ function Psychotherapy(params) {
         </div>
           <h3>We are able to provide individual therapy, family therapy, couples and relationship counseling. </h3>
           <img className='imgPsycho' src={psychotherapyIssues}></img>
-          </div>
+        </div>
           <Footer />
     </div>
   );
