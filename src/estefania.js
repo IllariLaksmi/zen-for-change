@@ -2,10 +2,12 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
 import photo from './img/photo.png'
+import NavBarResponsive from './navBarResponsive'
 function Estefania() {
     return (
         <div>
             <NavBar />
+            <NavBarResponsive />
             <div className='Estefania1'>
                 <div className='titleEstefania'>
                     <img src={photo}></img>

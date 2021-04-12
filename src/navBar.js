@@ -17,7 +17,7 @@ function NavBar(params) {
               </ul>
             </li>
             <li><a href='/forms' >Forms</a></li>
-            <li><a href='/resources'>Contact</a></li>
+            <li><a href='/resources'>Resources</a></li>
           </ul>
         </div>
         <div className='languages'>

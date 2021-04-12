@@ -90,7 +90,9 @@ ul.routes {
   display: none;
 }
 
-
+.menuR{
+display: none;
+}
  
 /*---------------------------------- -Navigation bar MEDIA-QUERY----------------------------------------------*/ 
 
@@ -106,21 +108,46 @@ ul.routes {
   .totalNavBar{
     display: none;
   }
+  .menuR{
+    display: none;
+    width: 70%;
+    flex-direction: column;
+    float: right;
+    left: 30vw;
+    top: 35vw;
+    height: fit-content;
+    background-color: #DBB4FB;
+    box-shadow: 0px 3.44167px 3.44167px rgb(0 0 0 / 35%);
+    position: fixed;
+    z-index: 1;
+    padding: 5vw;
+  }
+  .menuR a{
+    font-size: 8vw;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 3vw;
+  }
+  .menuR a:first-child{
+    margin-top: 3vw;
+  }
   .responsiveNavBar{
     display: flex;
     background-color: white;
+    position: fixed;
     width: 100vw;
-    height: 30%;
+
+    top:0;
     padding: 0px;
     align-items: center;
     box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
-
+    z-index: 2;
   }
   .NavBar {
     width: 100%;
   }
   .responsiveNavBar img{
-    width: 60%;
+    width: 80%;
     height: 60%;
 
   }
@@ -130,6 +157,13 @@ ul.routes {
     justify-content: space-around;
     width: 100%;
   }
+  .navBarR a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+  }
   #menuIcon {
     margin-top: 6%;
     font-size: 17vw;
@@ -138,6 +172,12 @@ ul.routes {
   #menuIcon:hover {
     cursor: pointer;
   }
+  .imgPsycho {
+    width: 60vw;
+    height: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 }
@@ -192,8 +232,9 @@ ul.routes {
   width: 50%
 }
 #imgPsycho {
-  width:350px;
-  height:210px;
+  width:30vw;
+  height: 20vw;
+  float: left;
 }
 .IntroductionText h1{
 color: #57B007;
@@ -235,6 +276,7 @@ font-family: 'Bitter', serif;
     height: 70vw;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40vw;
   }
   .IntroductionText {
     display: flex;
@@ -897,46 +939,91 @@ height: 50px;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
   text-align: center;
-  align-items: center;
+
 }
 .Psychotherapy h1 {
   display: flex;
-  justify-content: left;
   color: #57B007;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 3vw;
+  font-family: 'Bitter', sans-serif;
 }
-.Psychotherapy h2 {
-  display: flex;
-  justify-content: left;
-  color: #57B007;
-  font-weight: 300;
-  font-size: 30px;
+.Psychotherapy h3 {
+  color:#3e1861;
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin-top: 5%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.column{
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Psychotherapy p {
   color:#6B3B91;
-  font-size: larger;
-  margin-bottom: 40px;
+  font-size: 1.4vw;
+  margin-bottom: 1vw;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin-top: 23%;
+  margin-left: 5%;
+  text-align: left;
+}
+.session p {
+  color:#6B3B91;
+  font-size: 1.4vw;
+  margin-bottom: 1vw;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.session h3 {
+  color:#3e1861;
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  width: 90%;
+  margin-top: 5%;
+  width: 70%;
+}
+.psyRow{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .imgPsycho {
-  width: 300px;
-  height: 300px;
+  width: 20vw;
+  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 .rowServices{
   background: #FFFFFF;
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #4B8589;
-  padding: 20px;
+  padding: 2%;
   outline:none;
   border: none;
   font-family: 'Montserrat';
   font-weight: 400;
-  font-size: large;
-  width: 25%;
+  font-size: 1.5vw;
+  width: 60vw;
+  margin-bottom: 40px;
+}
+.rowServices p{
+  font-size: 1.4vw;
 }
 .columnServices{
   display: flex;
@@ -948,10 +1035,14 @@ height: 50px;
 }
 .titleServices{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: #57B007;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 3vw;
+  font-family: 'Bitter', sans-serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .pdfViewer {
   margin-top:40px;
@@ -1050,4 +1141,99 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 .publicSection{
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 700px){
+  .Psychotherapy {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 40vw;
+  }
+  .services{
+    margin-top: 40vw;
+  }
+  .titleServices{
+    font-size: 8vw;
+  }
+  .rowServices h2{
+    font-size: 6vw;
+  }
+  .columnServices {
+    flex-direction: column;
+    justify-content: space-around;
+}
+  .Psychotherapy h1 {
+    display: flex;
+    color: #57B007;
+    font-weight: 500;
+    font-size: 8vw;
+    font-family: 'Bitter', sans-serif;
+    text-align: center;
+  }
+  .Psychotherapy h3 {
+    color:#3e1861;
+    font-size: 6vw;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .column{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Psychotherapy p {
+    color:#6B3B91;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  .session p {
+    color:#6B3B91;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .session h3 {
+    color:hsl(271, 60%, 24%);
+    font-size: 6vw;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    margin-top: 5%;
+
+  }
+  .psyRow{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  #imgPsycho {
+    width: 60vw;
+    height: 40vw;
+    float:none;
+}
+.imgPsycho {
+  width: 60vw;
+  height: 60vw;
+  float:none;
+}
 }

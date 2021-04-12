@@ -2,10 +2,12 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
 import abimelec from './img/abimelecSection.png'
+import NavBarResponsive from './navBarResponsive'
 function Abimelec() {
     return ( 
         <div>
             <NavBar />
+            <NavBarResponsive />
             <div className='Estefania1'>
                 <div className='titleEstefania'>
                     <img src={abimelec}></img>
