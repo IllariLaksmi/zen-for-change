@@ -1,10 +1,10 @@
 import React from "react";
-import Videocall from './img/videocall.png'
+import Videocall from './img/thoughts.png'
 export default function Welcome() {
   return (
     <div className="Reccomendations">
       <div>
-      <h1>Clients thoughts</h1>
+      <h1>Clients comments</h1>
       <img src={Videocall}></img>
       </div>
       <div>

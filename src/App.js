@@ -14,11 +14,14 @@ import Resources from './GetInTouch'
 import Estefania from './estefania';
 import Keisharely from './keisharely';
 import Abimelec from './abimelec';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
+class App extends Component{
 
 
-
-function App() {
-  return (
+      render(){
+        return (
     <Router>
       <Switch>
         <Route exact path='/psychotherapy'>
@@ -50,7 +53,7 @@ function App() {
         </Route> 
       </Switch>
   </Router>
-  );
-}
+                 ) }};
+
 
 export default App;

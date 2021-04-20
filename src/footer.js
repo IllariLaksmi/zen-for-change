@@ -1,5 +1,6 @@
 import React from 'react';
 import Meditation from './img/meditation.svg'
+import Girl from './img/wfh.png'
 function Footer(params) {
     return (
         <div className='Footer'>
@@ -7,22 +8,22 @@ function Footer(params) {
             <div className='contact'>
                 <div>
                     <h1>Let's get in touch</h1>
-                    <img src={Meditation}></img>
+                    <img src={Girl}></img>
                 </div>
             </div>
             <div>
             <div className='contactButtons'>
                     <div>
-                        <h3>Call me</h3>
+                        <h3>Call us</h3>
                     <a href="tel:+1(443)326-9018"><span class="iconify" data-icon="bx:bxs-phone-call" data-inline="false"></span> +1(443)326-9018</a>
                     </div>
                     <div>
-                        <h3>Or email me!</h3>
+                        <h3>Mail us</h3>
                     <a href="mailto:info@zenforchange.com"><span class="iconify" data-icon="ant-design:mail-outlined" data-inline="false"></span> info@zenforchange.com</a>
                     </div>
                 </div>
                 <br></br>
-                <p>Zen for Change, LLC • Baltimore, MD • 443.326.9018</p>
+                <p>Zen for Change, LLC • Baltimore, MD</p>
                 <div className='iconsSocial'>
                         <a href='https://www.facebook.com/zenforchange/'><span class="iconify" data-icon="ant-design:facebook-filled" data-inline="false"></span></a>
                         <a href='https://www.instagram.com/zen_for_change/'><span class="iconify" data-icon="ant-design:instagram-filled" data-inline="false"></span></a>

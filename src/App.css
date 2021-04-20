@@ -210,14 +210,15 @@ display: none;
   width: 50%;
   height: 50%;
   box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
+  display: none;
 }
 
 .whyText p {
-  background-color: white; 
-  width: 70%;
-  color:#a069ce;
+  color: #a069ce;
+  font-size: 1.4vw;
+  font-weight: 500;
   font-family: 'Raleway', sans-serif;
-  font-size:1.5vw;
+  display: flex;
 }
 .IntroductionText {
    text-align: left;
@@ -229,6 +230,13 @@ display: none;
    flex-direction: row;
    justify-content:center;
 
+}
+.whyZFC{
+  color: #57B007;
+  font-weight: 500;
+  font-size: 2.8vw;
+  width: 100%;
+  font-family: 'Bitter', serif;
 }
 .introText{
   padding: 10px;
@@ -249,8 +257,8 @@ font-family: 'Bitter', serif;
 
 .IntroductionText p {
   color:#a069ce;
-  font-weight: 400;
   font-size:1.4vw;
+  font-weight: 500;
   font-family: 'Raleway', sans-serif;
   display: flex;
 }
@@ -280,6 +288,10 @@ font-family: 'Bitter', serif;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40vw;
+  }
+  .whyZFC{
+    width: 200%;
+    font-size: 10vw;
   }
   .IntroductionText {
     display: flex;
@@ -321,7 +333,7 @@ font-family: 'Bitter', serif;
 
 /*------------------------------------ About Us----------------------------------------------*/ 
 .AboutUs{
-  background: linear-gradient(#FFFFFF, #a069ce);
+  background: linear-gradient(#FFFFFF, #bfeefa, #FFFFFF);
 }
 .pdfViewer h1{
   font-family: 'Bitter', sans-serif;
@@ -338,15 +350,17 @@ font-family: 'Bitter', serif;
 }
 .AboutUsStart h1{
   color: #57B007;
-  font-weight: 300;
-  font-size: 3vw;
-  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 2.8vw;
+  width: 100%;
+  font-family: 'Bitter', serif;
 }
 .AboutUsStart h3 {
-  color:#a069ce;
-  font-size: 1.5vw;
-  font-weight: 400;
+  color: #a069ce;
+  font-size: 1.4vw;
+  font-weight: 500;
   font-family: 'Raleway', sans-serif;
+  display: flex;
 }
 .AboutUsStartText{
   width: 50%;
@@ -359,16 +373,18 @@ font-family: 'Bitter', serif;
   align-items: center;
 }
 .AboutUsEnd h1{
-  color: #3e1861;
-  font-weight: 300;
-  font-size: 3vw;
-  font-family: 'Raleway', sans-serif;
+  color: #57B007;
+  font-weight: 500;
+  font-size: 2.8vw;
+  width: 100%;
+  font-family: 'Bitter', serif;
 }
 .AboutUsEnd h3{
-  color:#ffffff;
-  font-size: 1.5vw;
-  font-weight: 400;
+  color: #a069ce;
+  font-size: 1.4vw;
+  font-weight: 500;
   font-family: 'Raleway', sans-serif;
+  display: flex;
 }
 .AboutUsEndText {
   width: 80%;
@@ -435,7 +451,6 @@ float: right;
 
   font-size: 5vw;
   width: 150%;
-  color: rgb(112, 112, 112);
 
 }
 .AboutUsStart img {
@@ -447,7 +462,6 @@ float: right;
 }
 .AboutUsEnd h3 {
   font-size: 5vw;
-  color: rgb(230, 227, 227);
 }
 }
 
@@ -523,13 +537,14 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 }
 .Reccomendations h1 {
   color: #57B007;
-  font-weight: 400;
-  font-size: 3vw;
-  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 2.8vw;
+  width: 100%;
+  font-family: 'Bitter', serif;
 }
 .Reccomendations img {
-  width: 25vw;
-  height: 15vw;
+  width: 10vw;
+  height: 20vw;
 }
 .recText{
   background: #ffffff;
@@ -771,10 +786,10 @@ outline:none;
 }
 .teamContainer h1{
   color: #57B007;
-  font-weight: 400;
-  font-size: 3vw;
-  font-family: 'Raleway', sans-serif;
-
+  font-weight: 500;
+  font-size: 2.8vw;
+  width: 100%;
+  font-family: 'Bitter', serif;
 }
 .slider {
   position: relative;

@@ -53,7 +53,7 @@ function Estefania() {
                     <div className='sectionEstefania'>
                         <h4>Publications & conferences</h4>
                         <p>
-                            - Collaboration in the book: Juvenile Delinquency. Legislation, treatment and Collaboration in the book: <a href="https://www.ulima.edu.pe/publicaciones/delinntación-juvenil-legislacion-tratamiento-y-criminalidad">Link</a>  Universidad de Lima, Peru. 2016.<br></br><br></br>
+                            - Collaboration in the book: Juvenile Delinquency. Legislation, treatment and Collaboration in the book:  Universidad de Lima, Peru. 2016.<br></br><br></br>
 
                             - Collaboration in Guide for the Detection and Referral of Victims of ESNNA, Ministry of Women and Vulnerable Populations Lima, Peru. 2015<br></br><br></br>
 

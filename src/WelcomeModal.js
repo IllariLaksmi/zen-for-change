@@ -28,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TransitionsModal() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(true);
+  sessionStorage.setItem('session', true)
+  const [open, setOpen] = React.useState(sessionStorage.getItem('session'));
 
   const handleOpen = () => {
     setOpen(true);
@@ -36,6 +37,8 @@ export default function TransitionsModal() {
 
   const handleClose = () => {
     setOpen(false);
+    localStorage.setItem('session', false)
+    console.log(localStorage.getItem('session'))
   };
 
   return (
@@ -54,6 +57,7 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
+            <button onClick={handleClose}>X</button>
             <h2 className='modal' id='modalh2'>Book a free 15 minute consultation!</h2>
             <p className='modal' id='modalp'>If you feel in doubt when requesting an appointment, this is for you.
 <br></br>Solve all your doubts in your free 15 minute consultation and start healing!</p>

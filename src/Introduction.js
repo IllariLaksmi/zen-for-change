@@ -14,6 +14,7 @@ function Introduction(params) {
             </div>
             <div className ='whyText'>               
                     <img src={Why}></img>
+                    <h2 className='whyZFC'>Why Zen For Change?</h2>
                     <p>We believe that part of the process of finding ourselves in this rapid paced world is to stop and take a moment of stillness to reflect. By exploring this sense of stillness we are able to reflect on our inner self and use our intuition to identify what we need to move forward in our path.</p>
             </div>
             
