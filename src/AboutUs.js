@@ -24,6 +24,7 @@ export default function Welcome() {
       <div className='AboutUsEnd'>
         <div className='AboutUsEndText'>
         <img id='reImage' src={estefaniaAboutUs} alt="Estefania"></img>
+        <div className='boxContainer'>
           <div className='boxMission'>
             <h1>Our mission</h1>
             <h3>
@@ -37,6 +38,7 @@ export default function Welcome() {
             Strengthen our community by assisting our clients to trust their intuition, inner power and strength to overcome life’s obstacles.  
           </h3>
           </div >
+          </div>
           </div>
           
         </div>

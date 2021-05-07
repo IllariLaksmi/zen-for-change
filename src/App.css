@@ -14,6 +14,16 @@
   color: #6B3B91;
   font-weight: 800;
 }
+.boxContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.boxMission{
+  border: rgba(44, 81, 92, 0.171) 3px dotted;
+  width: 45%;
+  padding: 10px;
+}
 /*----------------------------------------- Navigation bar------------------------------------------------- */ 
 .NavBar{
   display: flex;
@@ -124,6 +134,17 @@ display: none;
   }
 }
 @media (max-width: 700px) {
+  .boxContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .boxMission{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
   .totalNavBar{
     display: none;
   }
