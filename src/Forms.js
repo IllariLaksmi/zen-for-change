@@ -37,13 +37,28 @@ class Forms extends React.Component {
       <NavBarResponsive />
       <div className='pdfViewer'>
       <h1>Forms</h1>
-        <div className='Forms'>
+      <div  className='normalForms'>
+        <div id='normalForms' className='Forms'>
           <button onClick={() => this.changeConfidentiality()}>Limits of confidentiality</button>
           <button onClick={() => this.changeTeletherapy()}>Teletherapy</button>
           <button onClick={() => this.changeCancellation()}>Cancellation Policy</button>
         </div>
         <div>
         <object id='viewer' data={this.state.pdf} type='application/pdf' width='100%' height='800vw'></object>
+        </div>
+        </div>
+        <div>
+          <div id='formsResponsive' className='Forms'>
+          <a href={policy} download="cancellationPolicy">
+Cancellation policy
+</a>
+<a href={confidentiality} download="limitsOfConfidentiality">
+Limits of confidentiality
+</a>
+<a href={teletherapy} download="2020-teletherapy-therapy-form">
+Teletherapy form
+</a>
+          </div>
         </div>
       </div>
       <Footer />

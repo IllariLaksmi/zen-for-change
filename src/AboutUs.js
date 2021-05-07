@@ -24,14 +24,14 @@ export default function Welcome() {
       <div className='AboutUsEnd'>
         <div className='AboutUsEndText'>
         <img id='reImage' src={estefaniaAboutUs} alt="Estefania"></img>
-          <div>
+          <div className='boxMission'>
             <h1>Our mission</h1>
             <h3>
             Our purpose is to provide sex and mental health therapy and consulting services by empowering our clients to live the lives that they have imagined for themselves. 
           </h3>
           </div>
           
-          <div>
+          <div className='boxMission'>
             <h1>Our vision</h1>
             <h3>
             Strengthen our community by assisting our clients to trust their intuition, inner power and strength to overcome life’s obstacles.  

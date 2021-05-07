@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     backgroundColor: 'white',
-    padding:'50px 30px',
-    width: '40vw',
+    padding:'30px 20px',
+    width: '50vw',
     outline: 'none',
     textAlign: 'center',
     borderRadius:'20px',
@@ -57,11 +57,11 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className={classes.paper}>
-            <button onClick={handleClose}>X</button>
+            <button id='buttonClose' onClick={handleClose}>X</button>
             <h2 className='modal' id='modalh2'>Book a free 15 minute consultation!</h2>
             <p className='modal' id='modalp'>If you feel in doubt when requesting an appointment, this is for you.
 <br></br>Solve all your doubts in your free 15 minute consultation and start healing!</p>
-        <button className='modalButton'>Great! Let's Start!</button>
+        <a href="mailto:info@zenforchange.com" className='modalButton'>Great! Let's Start!</a>
           </div>
         </Fade>
       </Modal>

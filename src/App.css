@@ -1,6 +1,19 @@
 .App {
   text-align: center;
 }
+#buttonClose{
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  float: right;
+  font-size: larger;
+  cursor: pointer;
+  outline: inherit;
+  margin-bottom: 20px;
+  color: #6B3B91;
+  font-weight: 800;
+}
 /*----------------------------------------- Navigation bar------------------------------------------------- */ 
 .NavBar{
   display: flex;
@@ -106,6 +119,9 @@ display: none;
   .languages a{
     font-size: 90%;
   }
+  #viewer{
+    display:none
+  }
 }
 @media (max-width: 700px) {
   .totalNavBar{
@@ -113,7 +129,6 @@ display: none;
   }
   .menuR{
     display: none;
-    width: 70%;
     flex-direction: column;
     float: right;
     left: 30vw;
@@ -201,7 +216,7 @@ display: none;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 20vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -290,7 +305,7 @@ font-family: 'Bitter', serif;
     margin-top: 40vw;
   }
   .whyZFC{
-    width: 200%;
+    width: 100%;
     font-size: 10vw;
   }
   .IntroductionText {
@@ -339,7 +354,7 @@ font-family: 'Bitter', serif;
   font-family: 'Bitter', sans-serif;
   color: #57B007;
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 3vw;
 }
 
@@ -576,7 +591,7 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 }
 .Reccomendations img {
   width: 70vw;
-  height: 40vw;
+
 }
 .recText {
   font-size: 4vw;
@@ -642,7 +657,7 @@ color: #b47be2;
 }
 .getInTouch h1 {
   color: #57B007;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 3vw;
   font-family: 'Bitter', sans-serif;
 }
@@ -702,6 +717,7 @@ color: #FFFFFF;}
    flex-direction: column;
    margin-right: auto;
    margin-left: auto;
+   text-align: center
   }
   .contact {
     width: 100vw;
@@ -762,8 +778,11 @@ color: #6B3B91;
   color: white;
   font-family: 'Raleway', sans-serif;
   border:none;
-  width: 15vw;
-  height:40px;
+  width: 20vw;
+  padding: 8px;
+  margin-top: 20px;
+  height:50px;
+  text-decoration: none;
   font-weight: 700;
   font-size: 1.3vw;
   box-shadow: 0px 3.08706px 3.08706px rgba(0, 0, 0, 0.25);
@@ -847,7 +866,9 @@ outline:none;
   transition-duration: 2s;
   transform: scale(1.08);
 }
-
+#formsResponsive{
+  display: none;
+}
 /*--------------------------------About us MEDIA QUERY-------------------------------------------------*/
 @media (max-width: 700px) {
   .FAQ h1{
@@ -969,6 +990,7 @@ height: 50px;
   justify-content: space-around;
 }
 
+
 @media(max-width: 700px){
   .contactButtons a{
     font-size: 3vw;
@@ -1015,7 +1037,7 @@ height: 50px;
   margin-bottom: 1vw;
   font-family: 'Raleway', sans-serif;
   width: 90%;
-  margin-top: 23%;
+  margin-top: 35%;
   margin-left: 5%;
   text-align: left;
 }
@@ -1123,9 +1145,22 @@ height: 50px;
   font-size: 2vw;
   color: #4B8589;
   background-color: white;
+  text-align: center;
+  text-decoration: none;
 }
 .Forms button:hover {
   cursor: pointer;
+}
+#formsResponsive a{
+  outline:none;
+  border: none;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 2vw;
+  color: #4B8589;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
 }
 .Estefania1 {
   display: flex;
@@ -1198,7 +1233,7 @@ font-size: 1.3vw;
 }
 .sexT{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 @media (max-width: 700px){
   .Psychotherapy {
@@ -1221,7 +1256,7 @@ font-size: 1.3vw;
   .columnServices {
     flex-direction: column;
     justify-content: space-around;
-}
+  }
   .Psychotherapy h1 {
     display: flex;
     color: #57B007;
@@ -1252,7 +1287,7 @@ font-size: 1.3vw;
     margin-bottom: 2vw;
     font-family: 'Raleway', sans-serif;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 25%;
     margin-left: 5%;
     text-align: left;
   }
@@ -1338,7 +1373,7 @@ margin-left: 0px;
 }
 .getInTouch h1 {
   color: #57B007;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 8vw;
   font-family: 'Bitter', sans-serif;
 }
@@ -1384,6 +1419,8 @@ color: #6B3B91;
   color: white;
   font-family: 'Raleway', sans-serif;
   border:none;
+  padding: 8px;
+    text-decoration: none;
   width: 70px;
   height:40px;
   font-weight: 700;
@@ -1391,5 +1428,11 @@ color: #6B3B91;
   box-shadow: 0px 3.08706px 3.08706px rgba(0, 0, 0, 0.25);
 border-radius: 15.4353px;
 outline:none;
+}
+#formsResponsive{
+  display: flex;
+}
+#normalForms{
+  display:none
 }
 }

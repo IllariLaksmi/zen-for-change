@@ -8,8 +8,8 @@ function Introduction(params) {
             <div className='IntroductionText'>
                 <img className='introImage' src={FrontPage}></img>
                 <div className ='introText'>
-                <h1>Welcome to Zen for Change</h1>
-                <p>We are a mental health and sex therapy practice with a special focus on culture, diversity, and trauma. <br></br> We understand that finding a place we can trust to tell our stories is essential to find a path for healing, recovery, and transformation.<br></br> An unknown path is only unknown until you are ready to explore it. We are here to assist you explore your needs and collaboratively work towards your goals.</p>
+                <h1 >Welcome to Zen for Change</h1>
+                <p><b>We are a mental health and sex therapy practice with a special focus on culture, diversity, and trauma. <br></br> We understand that finding a place we can trust to tell our stories is essential to find a path for healing, recovery, and transformation.<br></br> An unknown path is only unknown until you are ready to explore it. We are here to assist you explore your needs and collaboratively work towards your goals.</b></p>
                 </div>
             </div>
             <div className ='whyText'>               
