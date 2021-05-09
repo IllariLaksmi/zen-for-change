@@ -1,5 +1,5 @@
 import React from "react";
-import Videocall from './img/thoughts.png'
+import Videocall from '../img/thoughts.png'
 export default function Welcome() {
   return (
     <div className="Reccomendations">

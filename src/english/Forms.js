@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './navBar';
 import NavBarResponsive from './navBarResponsive'
-import policy from './docs/cancellationpolicy.pdf';
-import confidentiality from './docs/limitsOfConfidentiality.pdf';
-import teletherapy from './docs/2020-teletherapy-therapy-form.pdf';
+import policy from '../docs/cancellationpolicy.pdf';
+import confidentiality from '../docs/limitsOfConfidentiality.pdf';
+import teletherapy from '../docs/2020-teletherapy-therapy-form.pdf';
 import Footer from './footer'
 
 class Forms extends React.Component {

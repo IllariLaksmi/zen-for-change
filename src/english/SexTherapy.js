@@ -1,8 +1,8 @@
 import React from "react";
 import NavBar from './navBar'
-import sexTherapy from './img/sexTherapy.png'
-import sexTherapyIssues from './img/sexTherapyIssues.png'
-import certificate from './img/certificate.jpeg'
+import sexTherapy from '../img/sexTherapy.png'
+import sexTherapyIssues from '../img/sexTherapyIssues.png'
+import certificate from '../img/certificate.jpeg'
 import NavBarResponsive from './navBarResponsive'
 import Footer from './footer'
 function SexTherapy(params) {

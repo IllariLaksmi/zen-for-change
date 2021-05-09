@@ -1,5 +1,5 @@
 import React from 'react';
-import headerOption1 from './img/headerOption1.png'
+import headerOption1 from '../img/headerOption1.png'
 import MenuIcon from '@material-ui/icons/Menu';
 function NavBar(params) {
   return (
@@ -22,7 +22,7 @@ function NavBar(params) {
         </div>
         <div className='languages'>
           <a href='/aboutus'>English</a>
-          <a href='/psychotherapy'>Español</a>
+          <a href='/es'>Español</a>
         </div>
       </nav>
     </div>

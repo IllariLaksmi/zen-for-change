@@ -5,15 +5,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './Home'
-import Psychotherapy from './Psychotherapy'
-import SexTherapy from './SexTherapy'
-import Forms from './Forms'
-import AdditionalServices from './additionalServices'
-import Resources from './GetInTouch'
-import Estefania from './estefania';
-import Keisharely from './keisharely';
-import Abimelec from './abimelec';
+import Home from './english/Home'
+import HomeES from './english/HomeEs'
+import Psychotherapy from './english/Psychotherapy'
+import SexTherapy from './english/SexTherapy'
+import Forms from './english/Forms'
+import AdditionalServices from './english/additionalServices'
+import Resources from './english/GetInTouch'
+import Estefania from './english/estefania';
+import Keisharely from './english/keisharely';
+import Abimelec from './english/abimelec';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
@@ -48,6 +49,9 @@ class App extends Component{
         <Route path='/abimelec'>
             <Abimelec />
         </Route>
+        <Route path='/es'>
+            <HomeES></HomeES>
+        </Route> 
         <Route path='/'>
             <Home></Home>
         </Route> 

@@ -1,6 +1,6 @@
 import React from 'react';
-import Meditation from './img/meditation.svg'
-import Girl from './img/wfh.png'
+import Meditation from '../img/meditation.svg'
+import Girl from '../img/wfh.png'
 function Footer(params) {
     return (
         <div className='Footer'>

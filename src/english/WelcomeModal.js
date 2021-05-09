@@ -28,8 +28,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function TransitionsModal() {
   const classes = useStyles();
-  sessionStorage.setItem('session', true)
-  const [open, setOpen] = React.useState(sessionStorage.getItem('session'));
+  const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
     setOpen(true);
@@ -37,9 +36,8 @@ export default function TransitionsModal() {
 
   const handleClose = () => {
     setOpen(false);
-    localStorage.setItem('session', false)
-    console.log(localStorage.getItem('session'))
-  };
+
+  }
 
   return (
     <div>

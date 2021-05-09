@@ -1,6 +1,6 @@
 import React from 'react';
-import FrontPage from './img/frontPage.png'
-import Why from './img/why.png'
+import FrontPage from '../img/frontPage.png'
+import Why from '../img/why.png'
 
 function Introduction(params) {
     return (

@@ -1,9 +1,9 @@
 import React from "react";
-import estefaniaAboutUs from './img/estefaniaAboutUs.jpeg'
-import Values from './img/values.png'
-import Light from './img/light.jpeg'
-import Buda from './img/buda.jpeg'
-import sofaZFC from './img/sofaZFC.jpeg'
+import estefaniaAboutUs from '../img/estefaniaAboutUs.jpeg'
+import Values from '../img/values.png'
+import Light from '../img/light.jpeg'
+import Buda from '../img/buda.jpeg'
+import sofaZFC from '../img/sofaZFC.jpeg'
 import Divider from '@material-ui/core/Divider';
 
 export default function Welcome() {
@@ -27,6 +27,9 @@ export default function Welcome() {
         <div className='boxContainer'>
           <div className='boxMission'>
             <h1>Our mission</h1>
+            <span class="material-icons">
+groups
+</span>
             <h3>
             Our purpose is to provide sex and mental health therapy and consulting services by empowering our clients to live the lives that they have imagined for themselves. 
           </h3>
@@ -34,6 +37,9 @@ export default function Welcome() {
           
           <div className='boxMission'>
             <h1>Our vision</h1>
+            <span class="material-icons">
+health_and_safety
+</span>
             <h3>
             Strengthen our community by assisting our clients to trust their intuition, inner power and strength to overcome life’s obstacles.  
           </h3>

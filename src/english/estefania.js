@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
-import photo from './img/photo.png'
+import photo from '../img/photo.png'
 import NavBarResponsive from './navBarResponsive'
 import Footer from './footer'
 function Estefania() {

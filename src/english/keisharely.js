@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import NavBar from './navBar';
-import keisharely from './img/keisharelyCropped.png'
+import keisharely from '../img/keisharelyCropped.png'
 import NavBarResponsive from './navBarResponsive'
 import Footer from './footer'
 function Keisharely() {

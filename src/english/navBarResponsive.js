@@ -1,6 +1,6 @@
 import React from 'react';
-import headerOption1 from './img/headerOption1.png'
-import zfcResponsive from './img/zfcresponsive.png'
+import headerOption1 from '../img/headerOption1.png'
+import zfcResponsive from '../img/zfcresponsive.png'
 
 function NavBar(params) {
   let number= 0;
