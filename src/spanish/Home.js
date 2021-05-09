@@ -14,11 +14,10 @@ import WelcomeModal from './WelcomeModal'
 import { SliderData } from './SliderData'
 
 
-function HomeES() {
+function Home() {
     return (
       <div className="App">
         <div>
-          <h1>Hola</h1>
             <NavBar />
             <NavBarResponsive />
             <WelcomeModal />
@@ -37,4 +36,4 @@ function HomeES() {
     );
   }
   
-  export default HomeES;
+  export default Home;

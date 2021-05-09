@@ -6,7 +6,6 @@ import {
   Link
 } from "react-router-dom";
 import Home from './english/Home'
-import HomeES from './english/HomeEs'
 import Psychotherapy from './english/Psychotherapy'
 import SexTherapy from './english/SexTherapy'
 import Forms from './english/Forms'
@@ -48,9 +47,6 @@ class App extends Component{
         </Route>
         <Route path='/abimelec'>
             <Abimelec />
-        </Route>
-        <Route path='/es'>
-            <HomeES></HomeES>
         </Route> 
         <Route path='/'>
             <Home></Home>
