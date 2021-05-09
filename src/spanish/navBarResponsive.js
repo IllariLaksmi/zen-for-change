@@ -17,7 +17,7 @@ function NavBar(params) {
     <div className='responsiveNavBar'>
       <nav >
         <div className='navBarR'>
-            <a href='/'><img src={zfcResponsive} ></img></a>
+            <a href='/es'><img src={zfcResponsive} ></img></a>
             <span onClick={show} id='menuIcon' class="material-icons">
                 menu
             </span>
@@ -26,13 +26,13 @@ function NavBar(params) {
       </nav>
     </div>
     <div id='menuR'className='menuR'>
-                <a href='/psychotherapy'>Psicoterapia</a><br></br>
-                <a href='/sextherapy'>Terapia sexual</a><br></br>
-                <a href='/additionalServices'>Servicios adicionales</a><br></br>
-                <a href='/forms' >Formularios</a><br></br>
-            <a href='/resources'>Recursos</a><br></br>
-            <a href='/aboutus'>English</a><br></br>
-          <a href='/psychotherapy'>Español</a>           
+                <a href='/es/psychotherapy'>Psicoterapia</a><br></br>
+                <a href='/es/sextherapy'>Terapia sexual</a><br></br>
+                <a href='/es/additionalServices'>Servicios adicionales</a><br></br>
+                <a href='/es/forms' >Formularios</a><br></br>
+            <a href='/es/resources'>Recursos</a><br></br>
+            <a href='/'>English</a><br></br>
+          <a href='/es'>Español</a>           
         </div>
     </div>
   )

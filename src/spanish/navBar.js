@@ -8,20 +8,20 @@ function NavBar(params) {
         <div className='NavBar'>
           <img src={headerOption1} alt='header'></img>
           <ul className='routes'>
-            <li><a href='/aboutus'>Inicio</a></li>
+            <li><a href='/es'>Inicio</a></li>
             <li><a>Terapia</a>
               <ul>
-                <li><a className='optionsMenu'href='/psychotherapy'>Psycoterapia</a></li>
-                <li><a class='optionsMenu' href='/sextherapy'>Terapia sexual</a></li>
-                <li><a class='optionsMenu' href='/additionalServices'>Servicios adicional</a></li>
+                <li><a className='optionsMenu'href='/es/psychotherapy'>Psicoterapia</a></li>
+                <li><a class='optionsMenu' href='/es/sextherapy'>Terapia sexual</a></li>
+                <li><a class='optionsMenu' href='/es/additionalServices'>Servicios adicionales</a></li>
               </ul>
             </li>
-            <li><a href='/forms' >Formularios</a></li>
-            <li><a href='/resources'>Recursos</a></li>
+            <li><a href='/es/forms' >Formularios</a></li>
+            <li><a href='/es/resources'>Recursos</a></li>
           </ul>
         </div>
         <div className='languages'>
-          <a href='/aboutus'>English</a>
+          <a href='/'>English</a>
           <a href='/es'>Español</a>
         </div>
       </nav>

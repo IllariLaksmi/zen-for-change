@@ -56,10 +56,9 @@ export default function TransitionsModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <button id='buttonClose' onClick={handleClose}>X</button>
-            <h2 className='modal' id='modalh2'>Book a free 15 minute consultation!</h2>
-            <p className='modal' id='modalp'>If you feel in doubt when requesting an appointment, this is for you.
-<br></br>Solve all your doubts in your free 15 minute consultation and start healing!</p>
-        <a href="mailto:info@zenforchange.com" className='modalButton'>Great! Let's Start!</a>
+            <h2 className='modal' id='modalh2'>Book a free 15 minutes consultation / Para una consulta gratis de 15 minutos presione aquí</h2>
+            <p className='modal' id='modalp'>If you have questions, feel free to reach out to us / Si tiene alguna pregunta, por favor comuníquese con nosotros</p>
+        <a href="mailto:info@zenforchange.com" className='modalButton'>I'm interested! /Me interesa</a>
           </div>
         </Fade>
       </Modal>

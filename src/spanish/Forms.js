@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './navBar';
 import NavBarResponsive from './navBarResponsive'
-import policy from '../docs/cancellationpolicy.pdf';
-import confidentiality from '../docs/limitsOfConfidentiality.pdf';
-import teletherapy from '../docs/2020-teletherapy-therapy-form.pdf';
+import policy from '../docs/cancellationPolicyES.pdf';
+import confidentiality from '../docs/limitsOfConfidentialityES.pdf';
+import teletherapy from '../docs/teletherapyES.pdf';
 import Footer from './footer'
 
 class Forms extends React.Component {
@@ -40,7 +40,7 @@ class Forms extends React.Component {
       <div  className='normalForms'>
         <div id='normalForms' className='Forms'>
           <button onClick={() => this.changeConfidentiality()}>Limites de confidencialidad</button>
-          <button onClick={() => this.changeTeletherapy()}>Teletherapia</button>
+          <button onClick={() => this.changeTeletherapy()}>Teleterapia</button>
           <button onClick={() => this.changeCancellation()}>Política de cancelación</button>
         </div>
         <div>
