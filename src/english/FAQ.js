@@ -68,7 +68,7 @@ export default function CustomizedAccordions() {
   return (
     <ThemeProvider theme={theme}>
     <div className='FAQ'>
-      <h1>Frequent Asked Questions</h1><br></br><br></br>
+      <h1>Frequently Asked Questions</h1><br></br><br></br>
       
         <Accordion id='accordion' square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">

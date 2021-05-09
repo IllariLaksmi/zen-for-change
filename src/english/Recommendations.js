@@ -4,7 +4,7 @@ export default function Welcome() {
   return (
     <div className="Reccomendations">
       <div>
-      <h1>Clients comments</h1>
+      <h1>Comments from our clients</h1>
       <img src={Videocall}></img>
       </div>
       <div>
