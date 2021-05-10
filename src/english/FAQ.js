@@ -10,7 +10,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 const theme = createMuiTheme({
   typography: {
     fontFamily: 'Raleway',
-    fontSize:'2vw'
+    fontSize:'3vw'
   },
 });
 const Accordion = withStyles({

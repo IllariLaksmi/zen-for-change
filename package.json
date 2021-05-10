@@ -12,6 +12,7 @@
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "firebase": "^8.3.1",
+    "framer-motion": "^4.1.13",
     "infinite-react-carousel": "^1.2.11",
     "react": "^17.0.1",
     "react-cookie": "^4.0.3",
