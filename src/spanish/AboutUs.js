@@ -27,6 +27,9 @@ export default function Welcome() {
         <div className='boxContainer'>
           <div className='boxMission'>
             <h1>Nuestra misión</h1>
+            <span class="material-icons">
+groups
+</span>
             <h3>
             Nuestro propósito es brindar servicios de terapia y consultoría en los campos de la salud sexual y mental para empoderar a nuestros clientes a vivir la vida que ellos han imaginado para sí mismos.
           </h3>
@@ -34,6 +37,9 @@ export default function Welcome() {
           
           <div className='boxMission'>
             <h1>Nuestra vision</h1>
+            <span class="material-icons">
+health_and_safety
+</span>
             <h3>
             Fortalecer a nuestra comunidad ayudando a nuestros clientes a identificar en su intuición interior su propio poder y fuerza para superar los obstáculos de la vida.
           </h3>

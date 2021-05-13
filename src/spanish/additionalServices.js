@@ -11,7 +11,7 @@ function AdditionalServices(params) {
       <h1 className='titleServices'>Servicios adicionales</h1>
       <div className='columnServices'>
           <div className='rowServices'>
-              <h2>Evaluationes</h2>
+              <h2>Evaluaciones</h2>
               <div>
                   <p>- Evaluaciones Psicosexuales</p>
                 </div>

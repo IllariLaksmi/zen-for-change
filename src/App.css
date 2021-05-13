@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.material-icons{
+  color:#3f1444;
+}
+#pPsycho{
+  margin-top: 20%;
+}
 #buttonClose{
   background: none;
   color: inherit;
@@ -81,7 +87,7 @@ ul.routes {
 }
 .routes a {
   text-decoration: none;
-  color: #6B3B91;
+  color: #35174e;
   font-size: 150%;
   padding: 10px;
 }
@@ -104,7 +110,7 @@ ul.routes {
 }
 .languages a{
   text-decoration: none;
-  color: #979797;
+  color: #3f1444;
   font-size: 120%;
   padding: auto;
   font-weight: 500;
@@ -237,7 +243,7 @@ display: none;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20vw;
+  margin-top: 10vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -276,7 +282,7 @@ display: none;
 }
 .introText{
   padding: 10px;
-  width: 50%
+  width: 55%
 }
 #imgPsycho {
   width:30vw;
@@ -442,7 +448,7 @@ margin-right: auto;
 }
 .AboutUsEnd{
   display: flex;
-  margin-top: 60px;
+
   flex-direction: column;
   text-align: left;
   justify-content: space-around;
@@ -461,7 +467,7 @@ float: right;
   flex-direction: row;
 }
 .AboutUs{
-  margin-top: 300px;
+  margin-top: 10vw;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -567,9 +573,9 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 300px;
+  margin-top: 10vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .Reccomendations h1 {
   color: #57B007;
@@ -595,12 +601,10 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 .recSection{
   display: flex;
   flex-direction: row;
-  width: 90%;
-  margin-left: 10%;
+  width: 100%;
+
 }
-.recSection:first-child{
-  margin-top: 20%;
-}
+
 @media(max-width: 700px){
   .Reccomendations {
 
@@ -628,7 +632,7 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 
 }
 .FAQ {
-  margin-top: 20%;
+  margin-top: 10vw;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -646,7 +650,9 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
   font-family: 'Raleway',sans-serif;
   font-size: 1.5vw;
   font-weight: bolder;
+  text-align: center;
 }
+
 .doxyR {
   display: flex;
   flex-direction: column;
@@ -795,13 +801,14 @@ text-align: center;
 color: #6B3B91;
 }
 .modalButton{
-  background-color:#B073E1;
-  color: white;
+  background-color: white;
+  color: #3a0640;
   font-family: 'Raleway', sans-serif;
-  border:none;
+  border: 3px solid #3a0640;
   width: 20vw;
   padding: 8px;
   margin-top: 20px;
+  margin-bottom: 20px;
   height:50px;
   text-decoration: none;
   font-weight: 700;
@@ -822,7 +829,7 @@ outline:none;
 }
 
 .teamContainer{
-  margin-top: 300px;
+  margin-top: 10vw;
 
 }
 .teamContainer h1{
@@ -830,6 +837,7 @@ outline:none;
   font-weight: 500;
   font-size: 2.8vw;
   width: 100%;
+  padding: none;
   font-family: 'Bitter', serif;
 }
 .slider {
@@ -1112,6 +1120,9 @@ height: 50px;
 .rowServices p{
   font-size: 1.4vw;
 }
+.rowServices h2{
+  text-align: center;
+}
 .columnServices{
   display: flex;
   flex-direction: row;
@@ -1122,7 +1133,7 @@ height: 50px;
 }
 .titleServices{
   display: flex;
-  justify-content: left;
+  justify-content: center;
   color: #57B007;
   font-weight: 500;
   font-size: 3vw;

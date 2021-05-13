@@ -5,7 +5,6 @@ export default function Welcome() {
     <div className="Reccomendations">
       <div>
       <h1>Comments from our clients</h1>
-      <img src={Videocall}></img>
       </div>
       <div>
           <div className='recSection'>

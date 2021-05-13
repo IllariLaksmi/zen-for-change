@@ -9,6 +9,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
   typography: {
+    flexGrow:0,
     fontFamily: 'Raleway',
     fontSize:'3vw'
   },
@@ -16,6 +17,7 @@ const theme = createMuiTheme({
 const Accordion = withStyles({
   root: {
     borderRadius: '20px',
+    flexGrow: '0',
     border: '1px solid rgba(0, 0, 0, .125)',
     boxShadow: 'none',
     '&:not(:last-child)': {
@@ -38,15 +40,19 @@ const AccordionSummary = withStyles({
     borderBottom: '1px solid rgba(0, 0, 0, .125)',
     border: '3px',
     width: '50vw',
+    flexGrow: 0,
     marginBottom: -1,
     minHeight: 56,
     '&$expanded': {
       minHeight: 56,
+      flexGrow: 0
     },
   },
   content: {
+    flexGrow: 0,
     '&$expanded': {
       margin: '12px 0',
+      flexGrow: 0,
     },
   },
   expanded: {},
@@ -70,9 +76,9 @@ export default function CustomizedAccordions() {
     <div className='FAQ'>
       <h1>Frequently Asked Questions</h1><br></br><br></br>
       
-        <Accordion id='accordion' square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-          <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-            <Typography className='question'><b>Q: What can I expect during our first meeting?</b></Typography>
+        <Accordion  id='accordion' square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+          <AccordionSummary  aria-controls="panel1d-content" id="panel1d-header">
+            <Typography  className='question'><b>What can I expect during our first meeting?</b></Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography className='answer'>
@@ -82,7 +88,7 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
           <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-            <Typography className='question'><b>Q: What are the fees and how do I pay?</b></Typography>
+            <Typography className='question'><b>What are the fees and how do I pay?</b></Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography className='answer'>
@@ -92,7 +98,7 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion square expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-            <Typography className='question'><b>Q: Do you take insurance?</b></Typography>
+            <Typography className='question'><b>Do you take insurance?</b></Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography className='answer'>
@@ -102,7 +108,7 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-            <Typography className='question'><b>Q: What is your availability?</b></Typography>
+            <Typography className='question'><b>What is your availability?</b></Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography className='answer'>
@@ -112,7 +118,7 @@ export default function CustomizedAccordions() {
         </Accordion>
         <Accordion square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
           <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-            <Typography className='question'><b>Q: How do I schedule an appointment?</b></Typography>
+            <Typography className='question'><b>How do I schedule an appointment?</b></Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography className='answer'>

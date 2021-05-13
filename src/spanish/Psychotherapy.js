@@ -12,11 +12,11 @@ function Psychotherapy(params) {
       <div className="Psychotherapy">
         <div className='psyRow'>
           <div >
-            <h1>Psycoterapia</h1>
+            <h1>Psicoterapia</h1>
             <img id='imgPsycho' src={psychotherapy}></img>
           </div>
           <div>
-            <p>Todos nacemos con una capacidad innata para desarrollar una vida feliz y saludable. Sin embargo, a veces las experiencias de la vida como el dolor y el trauma pueden interferir con nuestro desarrollo saludable. Como resultado, podemos volvernos infelices o insatisfechos con nuestras vidas y adoptar patrones de comportamiento y pensamiento contraproducentes. La terapia es el proceso de examinarse y explorarse a sí mismo para desarrollar nuevas estrategias para hacer frente a los desafíos de la vida. Lo ayudaremos en su viaje para identificar nuevos mecanismos de afrontamiento para lograr el equilibrio de la vida.</p>
+            <p id='pPsycho'>Todos nacemos con una capacidad innata para desarrollar una vida feliz y saludable. Sin embargo, a veces las experiencias de la vida como el dolor y el trauma pueden interferir con nuestro desarrollo saludable. Como resultado, podemos volvernos infelices o insatisfechos con nuestras vidas y adoptar patrones de comportamiento y pensamiento contraproducentes. La terapia es el proceso de examinarse y explorarse a sí mismo para desarrollar nuevas estrategias para hacer frente a los desafíos de la vida. Lo ayudaremos en su proceso para identificar nuevos mecanismos de afrontamiento para lograr el equilibrio de la vida.</p>
             </div>        
         </div>
         <div className='session'>

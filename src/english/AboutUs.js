@@ -14,8 +14,8 @@ export default function Welcome() {
         <div className='AboutUsStartText'>
           <h1>About us</h1>
           <h3>
-          Zen for Change, LLC is a bilingual (English/Spanish) multicultural practice that was established after identifying a great need for services in the community.
-          <br></br>Our focus is to assist our clients find a safe and respectful place of healing and support through their life journey.<br></br> Our holistic approach to therapy is essential to the work we do. It is through this lens that we provide services from a broad understanding of cultural diversity. 
+          Zen for Change, LLC is a bilingual (English/Spanish) multicultural practice that was established after identifying a need for services in the community.
+          <br></br>Our focus is to assist our clients find a safe and respectful place of healing and support through their life journey.<br></br> Our holistic approach to therapy is essential to the work we do. It is through this lens that we provide services from a broad understanding of culture and diversity. 
 
         </h3>
         </div>

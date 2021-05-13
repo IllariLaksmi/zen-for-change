@@ -31,8 +31,8 @@ function NavBar(params) {
                 <a href='/additionalServices'>Additional services</a><br></br>
                 <a href='/forms' >Forms</a><br></br>
             <a href='/resources'>Resources</a><br></br>
-            <a href='/aboutus'>English</a><br></br>
-          <a href='/psychotherapy'>Español</a>           
+            <a href='/'>English</a><br></br>
+          <a href='/es'>Español</a>           
         </div>
     </div>
   )

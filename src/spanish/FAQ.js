@@ -45,6 +45,7 @@ const AccordionSummary = withStyles({
     },
   },
   content: {
+    flexGrow:0,
     '&$expanded': {
       margin: '12px 0',
     },
