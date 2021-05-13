@@ -107,7 +107,7 @@ export default function CustomizedAccordions() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography className='answer'>
-            Estamos disponibles entre semana, viernes y sábados. Otras horas pueden estar disponibles a pedido.
+            Estamos disponibles de lunes a sábados. Otros horarios pueden estar disponibles a solicitud.
           </Typography>
           </AccordionDetails>
         </Accordion>

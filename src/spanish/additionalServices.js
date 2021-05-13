@@ -16,10 +16,10 @@ function AdditionalServices(params) {
                   <p>- Evaluaciones Psicosexuales</p>
                 </div>
               <div>
-                  <p>- Evaluaciones de abuso de sustancias para casos de DUI / DWI</p>
+                  <p>- Evaluaciones de abuso de sustancias para casos de DUI / DWI (SOLO en español)</p>
               </div>
               <div>
-                  <p>- Clases individuales y grupales ordenadas por la corte (SOLO en español)</p>
+                  <p>- DUI/DWI clases individuales y grupales ordenadas por la corte (SOLO en español)</p>
               </div>
               <div>
                   <p>- Evaluaciones psicosociales de inmigración</p>
@@ -31,7 +31,7 @@ function AdditionalServices(params) {
                   <p>- Supervisora aprobada de Maryland para consejeros profesionales graduados con licencia (LGPC)</p>
                 </div>
               <div>
-                  <p>- Asociación Estadounidense de Educadores, Consejeros y Terapeutas en Sexualidad (AASECT), Terapeuta Sexual Certificado (CST), Supervisor en formación</p>
+                  <p>- Asociación Estadounidense de Educadores, Consejeros y Terapeutas en Sexualidad (AASECT), Terapeuta Sexual Certificado (CST)/ Supervisor en formación</p>
               </div>
           </div>
           <div className='rowServices'>
@@ -43,11 +43,15 @@ function AdditionalServices(params) {
                   <p>- Salud mental en poblaciones migrantes</p>
               </div>
               <div>
-                  <p>- Violencia sexual</p>
+                  <p>- Violencia sexual experientada por poblaciones migrantes</p>
+              </div>
+              <div>
+                  <p>- Ciudadanía sexual experientada por poblaciones migrantes</p>
               </div>
               <div>
                   <p>- Sexualidad</p>
               </div>
+             
           </div>
       </div>
       <Footer />
