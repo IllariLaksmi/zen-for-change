@@ -8,17 +8,17 @@ import KeisharelyR from '../img/keisharelyR.png'
 export const SliderData = [
     {
       image: Estefania,
-      link: '/estefania',
+      link: '/es/estefania',
       imageR:EstefaniaR
     },
     {
       image: Keisharely,
-      link: '/keisharely',
+      link: '/es/keisharely',
       imageR:KeisharelyR
     },
     {
       image:Abimelec,
-      link: '/abimelec',
+      link: '/es/abimelec',
       imageR:AbimelecR
     },
 
