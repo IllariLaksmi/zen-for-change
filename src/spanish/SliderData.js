@@ -1,9 +1,9 @@
-import Estefania from '../img/estefania.png'
-import Abimelec from '../img/abimelec.png'
-import Keisharely from '../img/keisharely.png'
-import EstefaniaR from '../img/estefaniaR.png'
-import AbimelecR from '../img/abimelecR.png'
-import KeisharelyR from '../img/keisharelyR.png'
+import Estefania from '../img/estefaniaEs.png'
+import Abimelec from '../img/abimelecEs.png'
+import Keisharely from '../img/keisharelyEs.png'
+import EstefaniaR from '../img/estefaniaREs.png'
+import AbimelecR from '../img/abimelecREs.png'
+import KeisharelyR from '../img/keisharelyREs.png'
 
 export const SliderData = [
     {
