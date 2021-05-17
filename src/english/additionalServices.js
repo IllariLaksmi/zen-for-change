@@ -35,7 +35,7 @@ function AdditionalServices(params) {
               </div>
           </div>
           <div className='rowServices'>
-              <h2>Consultacy Services</h2>
+              <h2>Consultant Services</h2>
               <div>
                   <p>- Gender violence in migrant populations</p>
                 </div>

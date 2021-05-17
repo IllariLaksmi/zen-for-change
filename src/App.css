@@ -248,12 +248,7 @@ display: none;
   flex-direction: column;
   justify-content: space-around;
 }
-.whyText img {
-  width: 50%;
-  height: 50%;
-  box-shadow: 0px 3.44167px 3.44167px rgba(0, 0, 0, 0.35);
-  display: none;
-}
+
 
 .whyText p {
   color: #a069ce;
@@ -366,10 +361,6 @@ font-family: 'Bitter', serif;
   }
   .whyText {
     width: 75%;
-  }
-  .whyText img {
-    width: 100vw;
-    height: 100vw;
   }
   
   .whyText p {
@@ -665,7 +656,7 @@ filter: drop-shadow(0px 3.7964px 3.7964px rgba(0, 0, 0, 0.25));
 
 .doxyR h4 {
 margin: 0%;
-font-size: 0.8vw;
+font-size: 0.6vw;
 color: #b47be2;
 }
 .answer{

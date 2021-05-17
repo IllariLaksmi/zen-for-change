@@ -1,6 +1,6 @@
 import React from 'react';
 import FrontPage from '../img/frontPage.png'
-import Why from '../img/why.png'
+import Why from '../img/values.png'
 
 function Introduction(params) {
     return (
@@ -13,9 +13,10 @@ function Introduction(params) {
                 </div>
             </div>
             <div className ='whyText'>               
-                    <img src={Why}></img>
+                    
                     <h2 className='whyZFC'>¿Por qué Zen for Change?</h2>
                     <p>Creemos que parte del proceso de encontrarnos a nosotros mismos en este mundo de ritmo acelerado es detenernos y tomarnos un momento de quietud para reflexionar. Al explorar esta sensación de quietud, podemos reflexionar sobre nuestro yo interior y usar nuestra intuición para identificar lo que necesitamos para avanzar en nuestro camino.</p>
+                    <img src={Why}></img>
             </div>
             
         </div>
