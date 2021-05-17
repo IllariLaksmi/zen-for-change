@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from './navBar'
 import psychotherapy from '../img/psychotherapy.png'
-import psychotherapyIssues from '../img/psychotherapyIssues.png'
+import psychotherapyIssues from '../img/psychotherapyIssuesEs.png'
 import NavBarResponsive from './navBarResponsive'
 import Footer from './footer'
 function Psychotherapy(params) {
