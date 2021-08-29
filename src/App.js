@@ -26,6 +26,7 @@ import KeisharelyES from './spanish/keisharely';
 import AbimelecES from './spanish/abimelec';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Kristie from './english/kristie';
 
 class App extends Component{
 
@@ -81,6 +82,9 @@ class App extends Component{
         </Route>
         <Route path='/abimelec'>
             <Abimelec />
+        </Route> 
+        <Route path='/kristie'>
+            <Kristie />
         </Route> 
         <Route path='/es/abimelec'>
             <AbimelecES />
