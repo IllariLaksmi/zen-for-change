@@ -19,11 +19,6 @@ export const SliderData = [
       imageR:KeisharelyR
     },
     {
-      image: Abimelec,
-      link: '/abimelec',
-      imageR:AbimelecR
-    },
-    {
       image: Kristie,
       link: '/kristie',
       imageR: KristieR

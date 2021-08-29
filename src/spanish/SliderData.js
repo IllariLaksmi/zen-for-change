@@ -16,10 +16,4 @@ export const SliderData = [
       link: '/es/keisharely',
       imageR:KeisharelyR
     },
-    {
-      image:Abimelec,
-      link: '/es/abimelec',
-      imageR:AbimelecR
-    },
-
   ];
