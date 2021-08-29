@@ -6,7 +6,7 @@ function NavBar(params) {
   let number= 0;
   function show() {
     number++
-    if(number%2 == 0){
+    if(number%2 === 0){
       document.getElementById('menuR').style.display = 'none';
     }else{
       document.getElementById('menuR').style.display = 'flex';
