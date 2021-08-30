@@ -14,7 +14,7 @@ function Kristie() {
                     <img src={kristie}></img>
                     <div className='textEstefania'>
                         <h2>Kristie Lomangino, MSED, MA, LMSW</h2>
-                        <h3>Licensed master social worker</h3>
+                        <h3>LICENSED MASTER SOCIAL WORKER</h3>
                     </div>
                 </div>
                 <div>
