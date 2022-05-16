@@ -19,7 +19,7 @@ function Footer(params) {
                     </div>
                     <div>
                         <h3>Mail us</h3>
-                    <a href="mailto:info@zenforchange.com"><span class="iconify" data-icon="ant-design:mail-outlined" data-inline="false"></span> info@zenforchange.com</a>
+                    <a href="mailto:estefaniasimich@gmail.com"><span class="iconify" data-icon="ant-design:mail-outlined" data-inline="false"></span> info@zenforchange.com</a>
                     </div>
                 </div>
                 <br></br>

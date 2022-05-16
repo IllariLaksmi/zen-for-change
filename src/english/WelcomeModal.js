@@ -58,7 +58,7 @@ export default function TransitionsModal() {
           <div className={classes.paper}>
             <button id='buttonClose' onClick={handleClose}>X</button>
             <h2 className='modal' id='modalh2'>Book a free 15 minutes consultation</h2>
-        <a href="mailto:info@zenforchange.com" className='modalButton'>I'm interested!</a>
+        <a href="mailto:estefaniasimich@gmail.com" className='modalButton'>I'm interested!</a>
           </div>
         </Fade>
       </Modal>

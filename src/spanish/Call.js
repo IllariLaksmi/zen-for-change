@@ -26,7 +26,7 @@ export default function FloatingActionButtons() {
     <div id='call' className={classes.root}>
       <Fab  aria-label="add">
       <div className='doxyR'>
-      <a href="mailto:info@zenforchange.com?Subject=Consulta%20gratis%20de%2015%20minutos"  width='70px' height='20px'><span id='callIcon' class="iconify" data-icon="fluent:chat-mail-20-filled" data-inline="false" style={{ color:`#B073E1`,
+      <a href="mailto:estefaniasimich@gmail.com?Subject=Consulta%20gratis%20de%2015%20minutos"  width='70px' height='20px'><span id='callIcon' class="iconify" data-icon="fluent:chat-mail-20-filled" data-inline="false" style={{ color:`#B073E1`,
 width:`5vw`,
 height:`5vw`, }}></span></a>
 <h4>Consulta de 15 minutos gratis</h4>
