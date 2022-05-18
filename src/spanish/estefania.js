@@ -13,8 +13,8 @@ function Estefania() {
                 <div className='titleEstefania'>
                     <img src={photo}></img>
                     <div className='textEstefania'>
-                        <h2>Estefanía Simich Muñoz, MA, NCC, LCPC, CST, candidata a doctorado</h2>
-                        <h3>Psicoterapeuta, terapeuta sexual, asesora y supervisora ​​clínica</h3>
+                        <h2>Estefanía Simich Muñoz, PhD, NCC, LCPC, CST</h2>
+                        <h3>Psicoterapeuta, terapeuta sexual certificada, y supervisora ​​clínica</h3>
                     </div>
                 </div>
                 <div>
@@ -34,7 +34,7 @@ Licenciatura en Psicología (BA)<br></br><br></br>
                             - 
 Maestría en Consejería Comunitaria (MA)<br></br><br></br>
 
-                            -Candidato a Doctorado en Sexualidad Humana en el Instituto de Estudios Integrales de California </p>
+                            - Doctorado en Sexualidad Humana en el Instituto de Estudios Integrales de California </p>
                         </div>
                         <div className='sectionEstefania'>
                             <h4>Licencias</h4>

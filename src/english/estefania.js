@@ -13,8 +13,8 @@ function Estefania() {
                 <div className='titleEstefania'>
                     <img src={photo}></img>
                     <div className='textEstefania'>
-                        <h2>Estefanía Simich Muñoz, MA, NCC, LCPC, CST, PhD candidate</h2>
-                        <h3>Psychotherapist, Sex Therapist, Clinical Supervisor & Consultant</h3>
+                        <h2>Estefanía Simich Muñoz, PhD, NCC, LCPC, CST</h2>
+                        <h3>Psychotherapist, Certified Sex Therapist, Supervisor & Consultant</h3>
                     </div>
                 </div>
                 <div>
@@ -32,7 +32,7 @@ function Estefania() {
 
                             - Master of Arts in Community Counseling (MA)<br></br><br></br>
 
-                            -Human Sexuality PhD Candidate at the California Institute of Integral Studies </p>
+                            -Human Sexuality PhD at the California Institute of Integral Studies </p>
                         </div>
                         <div className='sectionEstefania'>
                             <h4>Licenses</h4>
