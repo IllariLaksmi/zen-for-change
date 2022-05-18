@@ -32,7 +32,7 @@ function Estefania() {
 
                             - Master of Arts in Community Counseling (MA)<br></br><br></br>
 
-                            -Human Sexuality PhD at the California Institute of Integral Studies (PhD)</p>
+                            -Doctorate in Human Sexuality (PhD)</p>
                         </div>
                         <div className='sectionEstefania'>
                             <h4>Licenses</h4>

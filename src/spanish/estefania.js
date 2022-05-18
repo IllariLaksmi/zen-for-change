@@ -34,7 +34,7 @@ Licenciatura en Psicología (BA)<br></br><br></br>
                             - 
 Maestría en Consejería Comunitaria (MA)<br></br><br></br>
 
-                            - Doctorado en Sexualidad Humana en el Instituto de Estudios Integrales de California (PhD)</p>
+                            - Doctorado en Sexualidad Humana (PhD)</p>
                         </div>
                         <div className='sectionEstefania'>
                             <h4>Licencias</h4>
