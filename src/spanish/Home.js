@@ -7,7 +7,6 @@ import GetInTouch from './GetInTouch'
 import Footer from './footer'
 import FAQ from './FAQ'
 import AboutUs from './AboutUs'
-import Recommendations from './Recommendations'
 import Call from './Call'
 import Doxy from './doxy'
 import WelcomeModal from './WelcomeModal'
@@ -27,7 +26,6 @@ function Home() {
           
           <Team slides={SliderData}></Team>
           <TeamR slides={SliderData}></TeamR>
-          <Recommendations></Recommendations>
           <FAQ></FAQ>
           <Footer></Footer>
         </div>
