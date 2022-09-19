@@ -37,7 +37,7 @@ Maestría en Consejería Comunitaria (MA)<br></br><br></br>
                             - Doctorado en Sexualidad Humana (PhD)</p>
                         </div>
                         <div className='sectionEstefania'>
-                            <h4>Licencias</h4>
+                            <h4>Licencias / Certificaciones</h4>
                             <p>- NCC (Consejera Certificada Nacional)<br></br><br></br>
 
                             - LCPC (Consejera profesional certificado con licencia) en Maryland<br></br><br></br>
@@ -45,8 +45,6 @@ Maestría en Consejería Comunitaria (MA)<br></br><br></br>
                             - LCPC Supervisora in Maryland<br></br><br></br>
 
                             - AASECT Terapeuta sexual certificada (Asociación Estadounidense de Educadores, Consejeros y Terapeutas Sexuales)<br></br><br></br>
-
-                            -AASECT Supervisora ​​certificada de terapia sexual en entrenamiento<br></br><br></br>
 
                             - Psicóloga clínica (Perú)</p>
                         </div>

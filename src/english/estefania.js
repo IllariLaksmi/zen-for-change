@@ -35,7 +35,7 @@ function Estefania() {
                             -Doctorate in Human Sexuality (PhD)</p>
                         </div>
                         <div className='sectionEstefania'>
-                            <h4>Licenses</h4>
+                            <h4>Licenses / Certifications</h4>
                             <p>- NCC (National Certified Counselor)<br></br><br></br>
 
                             - LCPC (Licensed Certified Professional Counselor) in Maryland<br></br><br></br>
@@ -43,8 +43,6 @@ function Estefania() {
                             - LCPC Supervisor in Maryland<br></br><br></br>
 
                             - AASECT Certified Sex Therapist (American Association of Sexuality Educators, Counselors and Therapists<br></br><br></br>
-
-                            -AASECT Certified Sex Therapist Supervisor In Training<br></br><br></br>
 
                             - Clinical Psychologist (Perú)</p>
                         </div>
